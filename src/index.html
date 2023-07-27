@@ -2,23 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="./src/img/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      rel="stylesheet"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
-
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
-
-    <script type="module" src="/main.js"></script>
+    <load src="partials/header.html" />
+    <main>
+      <load src="partials/hero.html" />
+      <load src="partials/aboutblock.html" />
+      <load src="partials/yahtsblock.html" />
+      <load src="partials/servicesblock.html" />
+      <load src="partials/rentblock.html" />
+      <load src="partials/reviewsblock.html" />
+    </main>
+    <load src="partials/footer.html" />
   </body>
 </html>

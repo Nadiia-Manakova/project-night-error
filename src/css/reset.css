@@ -1,12 +1,15 @@
 /* Reset styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+
+* {
   margin: 0;
+  padding: 0;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 p:last-child {
@@ -14,22 +17,42 @@ p:last-child {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
 a {
   color: currentColor;
+  display: inline-block;
   text-decoration: none;
 }
 
 button {
+  font-family: inherit;
+  border: none;
+  outline: none;
   cursor: pointer;
+  color: currentColor;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+label {
+  cursor: pointer;
 }
