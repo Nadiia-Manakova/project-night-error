@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: local('DM Sans Bold'), local('DMSans-Bold'),
+        url('DMSans-Bold.woff2') format('woff2'),
+        url('DMSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: local('DM Sans Medium'), local('DMSans-Medium'),
+        url('DMSans-Medium.woff2') format('woff2'),
+        url('DMSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: local('DM Sans Regular'), local('DMSans-Regular'),
+        url('DMSans-Regular.woff2') format('woff2'),
+        url('DMSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: local('DM Sans Medium Italic'), local('DMSans-MediumItalic'),
+        url('DMSans-MediumItalic.woff2') format('woff2'),
+        url('DMSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
