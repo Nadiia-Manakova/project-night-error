@@ -1,11 +1,11 @@
 {
-  "name": "project-group-8-template",
+  "name": "project-night-error-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-group-8/",
+    "build": "vite build --base=/project-night-error/",
     "preview": "vite preview"
   },
   "devDependencies": {
