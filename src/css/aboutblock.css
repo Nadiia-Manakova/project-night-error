@@ -1,0 +1,124 @@
+.about-block {
+  margin: 40px auto 98px auto;
+  padding: 0 20px;
+  min-width: 320px;
+  max-width: 1280px;
+  overflow-x: clip;
+
+}
+.about-topics-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.about-pragraph {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: -1.08px;
+}
+.about-pragraph > span {
+  font-style: italic;
+  background: var(--primary-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-topics {
+  display: flex;
+  gap: 14px;
+}
+
+.about-topic {
+  width: 160px;
+  font-size: 14px;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.28px;
+}
+
+.about-images {
+  margin: 40px auto 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-end;
+}
+
+.about-image {
+}
+
+/* .about-images > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+} */
+
+.about-image-background {
+  border-radius: 24px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #11131f 100%),
+    url(../img/Dekstop/aboutblock/aboutblock-img-3@1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 244px;
+}
+@media (min-resolution: 192dpi) {
+  .about-image-background {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #11131f 100%), url(../img/Dekstop/aboutblock/aboutblock-img-3@2.jpg);
+  }
+}
+.about-big-circle {
+  position: absolute;
+  left: -133px;
+  width: 255px;
+  height: 255px;
+  background-color: var(--background-color-blur);
+  border-radius: 50%;
+  filter: blur(100px);
+  transform: rotate(-44.916deg);
+  opacity: 0.6;
+}
+
+.about-small-circle {
+  position: absolute;
+  right: -110px;
+  width: 195px;
+  height: 195px;
+  transform: rotate(-44.916deg);
+  border-radius: 50%;
+  opacity: 0.3;
+  background-color: #a6a9b2;
+  filter: blur(100px);
+}
+.title-button-wrap {
+  margin-top: -110px;
+  position: relative;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-title {
+  z-index: 999;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 110%; /* 110px */
+  letter-spacing: -1.62px;
+}
+.about-rent-button {
+  z-index: 999;
+  width: 131px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 110%; /* 19.8px */
+  letter-spacing: -0.63px;
+  padding: 14px 28px;
+  border-radius: 60px;
+  border: 1px solid var(--white-text-color);
+  background-color: transparent;
+}
