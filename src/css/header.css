@@ -1,1 +1,147 @@
+/**
+  |============================
+  | header styles
+  |============================
+*/
 
+.header-underline {
+  display: flex;
+  margin: 0 auto;
+
+  background-color: rgba(246, 245, 239, 0.2);
+}
+
+.header-container {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-logo-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+.header-menu-open {
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.header-logo {
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 8px;
+}
+
+/**
+  |============================
+  | header mobile menu
+  |============================
+*/
+.header-logo-menu {
+  justify-content: flex-start;
+}
+.menu-underline {
+  margin-bottom: 140px;
+}
+.header-menu-close-icon {
+  stroke: var(--white-text-color);
+}
+
+.header-menu-close {
+  padding: 0;
+
+  background-color: transparent;
+  outline: none;
+  border: none;
+
+  position: absolute;
+  top: 24px;
+  right: 20px;
+}
+
+.menu-container {
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  padding: 0 20px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+
+  background: var(--background-color-body);
+
+  transform: translateY(-100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+  transform: translateY(0);
+}
+
+.header-nav-link {
+  color: var(--white-text-color);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.65;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-navigation-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+/* lights */
+
+.header-light-left {
+  width: 279px;
+  height: 279px;
+  transform: rotate(-44.916deg);
+  border-radius: 279px;
+  opacity: 0.6;
+  background-color: var(--background-color-blur);
+  filter: blur(100px);
+
+  position: absolute;
+  bottom: 0;
+  left: -154px;
+}
+.header-light-right {
+  width: 279px;
+  height: 279px;
+  transform: rotate(-44.916deg);
+  border-radius: 279px;
+  opacity: 0.6;
+  background-color: var(--background-color-blur);
+  filter: blur(100px);
+
+  position: absolute;
+  bottom: -195px;
+  right: -15px;
+}
