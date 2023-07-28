@@ -52,32 +52,19 @@
 
     <!-- links -->
 
-    <nav class="header-nav">
+    <vav class="header-nav">
       <ul class="header-list">
         <li>
-          <a href="" target="_blank" id="about" class="link header-nav-link"></a
-          >About
+          <a href="#about" target="_blank" class="header-nav-link">About</a>
         </li>
         <li>
-          <a
-            href=""
-            target="_blank"
-            id="yachts"
-            class="link header-nav-link"
-          ></a
-          >Yachts
+          <a href="#yachts" target="_blank" class="header-nav-link">Yachts</a>
         </li>
         <li>
-          <a
-            href=""
-            target="_blank"
-            id="reviews"
-            class="link header-nav-link"
-          ></a
-          >Reviews
+          <a href="#reviews" target="_blank" class="header-nav-link">Reviews</a>
         </li>
       </ul>
-    </nav>
+    </vav>
   </div>
 
   <!-- underline -->
@@ -101,30 +88,79 @@
       <span class="header-logo-text">YACHT ADVENTURES</span>
     </a>
 
-    <div class="underline-mob"></div>
+    <div class="underline"></div>
 
     <button class="js-close-menu">
       <svg class="header-menu-close" width="24" height="24">
-        <use href="../img/icons.svg#icon-close-btn"></use>
+        <use href="./img/icons.svg#icon-close-btn"></use>
       </svg>
     </button>
 
     <nav>
       <ul class="header-navigation-list">
         <li class="header-navigation-item">
-          <a href="" target="_blank" id="about" class="link header-nav-link"
-            >About</a
-          >
+          <a href="#about" target="_blank" class="header-nav-link">About</a>
         </li>
         <li class="header-navigation-item">
-          <a href="" target="_blank" id="yachts" class="link header-nav-link"
-            >Yachts</a
-          >
+          <a href="#yachts" target="_blank" class="header-nav-link">Yachts</a>
         </li>
         <li class="header-navigation-item">
-          <a href="" target="_blank" id="reviews" class="link header-nav-link"
-            >Reviews</a
-          >
+          <a href="#reviews" target="_blank" class="header-nav-link">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header-light-left"></div>
+    <div class="header-light-right"></div>
+  </div>
+</header>
+
+<script
+  defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+  crossorigin="anonymous"
+></script>
+<script defer src="js/mobile-menu.js"></script>
+
+  <!-- underline -->
+
+  <div class="underline"></div>
+
+  <!-- mobile menu -->
+
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <a class="link header-logo header-logo-menu" href="./index.html">
+      <img
+        srcset="
+          ./img/mobile/logo-mobile@1.png 1x,
+          ./img/mobile/logo-mobile@2.png 2x
+        "
+        src="./img/mobile/logo-mobile@1.png"
+        alt="logo yacht"
+        width="16"
+        height="18"
+      />
+      <span class="header-logo-text">YACHT ADVENTURES</span>
+    </a>
+
+    <div class="underline"></div>
+
+    <button class="js-close-menu">
+      <svg class="header-menu-close" width="24" height="24">
+        <use href="./img/icons.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+
+    <nav>
+      <ul class="header-navigation-list">
+        <li class="header-navigation-item">
+          <a href="#about" target="_blank" class="header-nav-link">About</a>
+        </li>
+        <li class="header-navigation-item">
+          <a href="#yachts" target="_blank" class="header-nav-link">Yachts</a>
+        </li>
+        <li class="header-navigation-item">
+          <a href="#reviews" target="_blank" class="header-nav-link">Reviews</a>
         </li>
       </ul>
     </nav>
