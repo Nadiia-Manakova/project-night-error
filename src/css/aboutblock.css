@@ -133,6 +133,7 @@
   }
   .about-topics {
     justify-content: flex-end;
+    gap: 32px;
   }
 
   .about-topic {
@@ -142,6 +143,7 @@
   }
 
   .about-images {
+    margin-top: 64px;
     position: relative;
     width: 704px;
     gap: 32px;
@@ -182,5 +184,62 @@
     transform: rotate(-44.094deg);
     top: -60px;
     right: -45px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .about-desktop-image {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about-block {
+    margin-top: 164px;
+    margin-bottom: 180px;
+  }
+
+  .about-topics-wrap {
+    flex-direction: row;
+  }
+  .title-button-wrap {
+    width: 882px;
+  }
+  .about-title {
+    font-size: 100px;
+    letter-spacing: -4.5px;
+  }
+  .about-images {
+    width: 533px;
+    margin: 0;
+  }
+  .about-images > div > .about-image {
+    display: none;
+  }
+
+  .about-image-background {
+    margin-top: 0;
+  }
+
+  .about-desktop-images {
+    display: flex;
+    gap: 32px;
+    margin-top: 64px;
+  }
+
+  .about-desktop-image {
+    margin-top: 268px;
+  }
+
+  .about-big-circle {
+    width: 414px;
+    height: 414px;
+    top: -65px;
+    left: -60px;
+  }
+
+  .about-small-circle {
+    width: 316px;
+    height: 316px;
+    top: -40px;
+    right: 35px;
   }
 }
