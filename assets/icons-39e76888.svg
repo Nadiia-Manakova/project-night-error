@@ -26,5 +26,17 @@
 <path d="M24 12.354l4.632 3.646-4.632 3.646v-3.015h-10.526v-1.263h10.526v-3.015z"></path>
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8421" d="M15.436 0.985h11.234c8.292 0 15.015 6.722 15.015 15.015v0c0 8.292-6.722 15.015-15.015 15.015h-11.234c-8.292 0-15.015-6.722-15.015-15.015v-0c0-8.292 6.722-15.015 15.015-15.015z"></path>
 </symbol>
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-pagination-active" viewBox="0 0 32 32">
+<path fill="#88b3b9" style="fill: var(--color1, #88b3b9)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="none" stroke="#93abae" style="stroke: var(--color2, #93abae)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.4615" d="M30.769 16c0 8.157-6.612 14.769-14.769 14.769s-14.769-6.612-14.769-14.769c0-8.157 6.612-14.769 14.769-14.769s14.769 6.612 14.769 14.769z"></path>
+</symbol>
+<symbol id="icon-pagination" viewBox="0 0 32 32">
+<path d="M23.579 14.316c0 6.046-4.901 10.947-10.947 10.947s-10.947-4.901-10.947-10.947c0-6.046 4.901-10.947 10.947-10.947s10.947 4.901 10.947 10.947z"></path>
+</symbol>
+</defs>
+</svg>
+
 </defs>
 </svg>
