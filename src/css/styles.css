@@ -62,7 +62,7 @@
   --primary-accent-color: #93abae;
   --pressed-state-color: #88b3b9;
   --white-text-color: #f6f5ef;
-  --primary-gradient: linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%);
+  --primary-gradient: linear-gradient(107deg, rgb(190, 199, 194) 0%, #a1b5ba 100%);
 }
 
 body {
