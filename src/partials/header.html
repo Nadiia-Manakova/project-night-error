@@ -1,28 +1,27 @@
 <header class="header">
   <!-- logo -->
+  <h2 class="visually-hidden header-title">header yacht adventures</h2>
 
-  <div class="header-container">
+  <div class="container header-container">
     <a class="header-logo" href="./index.html">
-      <img
-        srcset="
-          ./img/mobile/logo-mobile@1.png 1x,
-          ./img/mobile/logo-mobile@2.png 2x
-        "
-        class="header-img-mobile"
-        src="./img/mobile/logo-mobile@1.png"
-        alt="logo jacht"
-        width="16"
-        height="18"
-      />
+      <picture>
+        <source
+          srcset="
+            ./img/mobile/logo-mobile@1.png 1x,
+            ./img/mobile/logo-mobile@2.png 2x
+          "
+          media="(max-width:767.98px)"
+          type="image/png"
+        />
+        <source
+          srcset="./img/Dekstop/logo@1.png 1x, ./img/Dekstop/logo@2.png 2x"
+          media="(min-width:768px)"
+          type="image/png"
+        />
 
-      <img
-        srcset="./img/Dekstop/logo@1.png 1x, ./img/Dekstop/logo@2.png 2x"
-        class="header-img"
-        src="./img/Dekstop/logo@1.png"
-        alt="logo yacht"
-        width="20"
-        height="23"
-      />
+        <img src="./img/mobile/logo-mobile@1.png" alt="logo jacht" />
+      </picture>
+
       <span class="header-logo-text">YACHT ADVENTURES</span>
     </a>
 
@@ -38,10 +37,39 @@
       </svg>
     </button>
 
-    <svg class="header-underline" width="100%" height="1">
-      <use href="./images/icons.svg#icon-underline"></use>
-    </svg>
+    <!-- links -->
+
+    <vav class="header-nav">
+      <ul class="header-list">
+        <li>
+          <a href="" target="_blank" id="about" class="link header-nav-link"></a
+          >About
+        </li>
+        <li>
+          <a
+            href=""
+            target="_blank"
+            id="yachts"
+            class="link header-nav-link"
+          ></a
+          >Yachts
+        </li>
+        <li>
+          <a
+            href=""
+            target="_blank"
+            id="reviews"
+            class="link header-nav-link"
+          ></a
+          >Reviews
+        </li>
+      </ul>
+    </vav>
   </div>
+
+  <!-- underline -->
+
+  <div class="underline"></div>
 
   <!-- mobile menu -->
 
@@ -57,15 +85,10 @@
         width="16"
         height="18"
       />
-
       <span class="header-logo-text">YACHT ADVENTURES</span>
     </a>
 
-    <div>
-      <svg class="header-underline menu-underline" width="100%" height="1">
-        <use href="./images/icons.svg#icon-underline"></use>
-      </svg>
-    </div>
+    <div class="underline"></div>
 
     <button class="js-close-menu">
       <svg class="header-menu-close" width="24" height="24">
@@ -73,7 +96,7 @@
       </svg>
     </button>
 
-    <nav class="header-nav">
+    <nav>
       <ul class="header-navigation-list">
         <li class="header-navigation-item">
           <a href="" target="_blank" id="about" class="link header-nav-link"
