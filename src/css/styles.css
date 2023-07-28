@@ -92,3 +92,33 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
