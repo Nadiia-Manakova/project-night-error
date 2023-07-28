@@ -1,48 +1,5 @@
-.li-ul-review{
-    border-radius: 24px;
-    background: #1F212D;
 
-    display: flex;
-    width: 384px;
-    padding: 32px 25px;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-}
-.ul-review{
-    display: flex;
-    width: 335px;
-    height: 208px;
-    padding: 24px;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    flex-shrink: 0;
 
-}
-@media screen and (min-width: 768px) {
-     .ul-review{
-        display: flex;
-        
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-        
-    }
-
-}
-
-@media screen and (min-width: 1280px) {
-    .ul-review{
-        display: flex;
-        width: 384px;
-        height: 282px;
-        padding: 32px;
-        gap: 32px;
-        flex-wrap: wrap;
-        
-    }
-}
 .div-reviewsblock{
     width: 335px;
     height: 282px;
@@ -56,6 +13,8 @@
 @media screen and (min-width: 1280px){
     .div-reviewsblock{
         width: 1216px;
+        display: flex;
+        
     }
 }
 .advanture{
@@ -85,12 +44,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.task-styless-yacht{
+.styless-yacht-task{
     font-family: DM Sans;
     font-size: 24px;
     line-height: 120%;
     letter-spacing: -1.08px;
     font-weight: 500;
+    margin-right: auto;
 }
 .task-styless-our{
     color: var(--white-text-color #F6F5EF);
@@ -99,6 +59,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    width: 100%;
     
     letter-spacing: -0.28px;
 }
@@ -106,15 +67,29 @@
 
 .div-block{
        
-        
+    flex-direction: column;   
     height: 208px;
     padding: 24px;
-    justify-content: center;
+    
     align-items: center;
     gap: 8px;
     flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+    .div-block {
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .div-block {
+        gap: 32px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
 }
 .div-advanture{
     flex-direction: column;
@@ -132,17 +107,43 @@
 @media screen and (min-width: 1280px) {
     .div-advanture {
         
-     
     }
 }
 
 .review-people{
     margin-bottom: 18px;
-    margin-top: 24px;
-   
+    border-radius: 24px;
+    background: #1F212D;
+
+    display: flex;
+    width: 384px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    
+}
+@media screen and (min-width: 768px) {
+    .review-people {
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .review-people{
+        display: flex;
+        width: 384px;
+      
+    }
 }
 .people-name{
-    margin-bottom: 8px;
+    
     color: var(--white, #F6F5EF);
     text-align: center;
     font-family: DM Sans;
@@ -155,26 +156,26 @@
 }
 .people-page{
     color: rgba(246, 245, 239, 0.50);
-     text-align: center;
+    text-align: center;
     font-family: DM Sans;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-        /* 16.8px */
     letter-spacing: -0.24px;
+    
 }
 .img-people{
     margin-left: auto;
     margin-right: auto;
 }
 .reviewsblock{
-    padding-top: 80px;
+    
     padding-bottom: 80px;
 }
 @media screen and (min-width: 768px) {
     .reviewsblock {
-        padding-top: 100px;
+        
         padding-bottom: 100px;
         
 
@@ -183,17 +184,21 @@
 
 @media screen and (min-width: 1280px) {
     .reviewsblock {
-        padding-top: 164px;
+        
         padding-bottom: 164px;
     }
 }
 .div-styless-yacht{
     width: 335px;
     height: 116px;
+    margin-bottom: 24px;
 }
 @media screen and (min-width: 768px) {
     .div-styless-yacht {
-        
+        width: 497px;
+        height: 114px;
+        padding-bottom: 206px;
+        margin-left: auto;
         
     }
 }
@@ -212,11 +217,15 @@
     .div-task-styless {
     width: 273px;
     height: 110px;
+    padding-top: 64px;
+    
     }
 }
 
 @media screen and (min-width: 1280px) {
     .div-task-styless {
-       
+       padding-top: 0;
     }
 }
+/* ============================================================== */
+
