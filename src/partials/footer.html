@@ -80,3 +80,20 @@
     <div class="footer-blur-background-small"></div>
   </div>
 </footer>
+
+<button onclick="topFunction()" id="myBtn">
+  <svg class="top-btn-icon" width="44" height="44">
+    <use href="../img/icons.svg#icon-arrow"></use>
+  </svg>
+</button>
+
+<script>
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
