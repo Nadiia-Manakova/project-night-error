@@ -1,5 +1,4 @@
 .about-block {
-  margin-top: 40px;
   margin-bottom: 98px;
   overflow-x: clip;
 }
@@ -129,7 +128,6 @@
 
 @media screen and (min-width: 768px) {
   .about-block {
-    margin-top: 100px;
     margin-bottom: 100px;
   }
   .about-pragraph {
@@ -199,7 +197,6 @@
 }
 @media screen and (min-width: 1280px) {
   .about-block {
-    margin-top: 164px;
     margin-bottom: 180px;
   }
 
