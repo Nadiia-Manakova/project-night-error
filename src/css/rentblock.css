@@ -16,11 +16,31 @@
   |============================
 */
 
+.rent-section {
+    /* position: relative;
+    overflow: hidden; */
+    margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    .rent-section {
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .rent-section {
+        margin-bottom: 180px;
+    }
+}
+
 .rent-wrapper {
     position: relative;
+    overflow: hidden;
+
     display: flex;
     flex-direction: column;
-    outline: 2px solid yellowgreen;
+    justify-content: center;
     gap: 40px;
 }
 
@@ -43,13 +63,12 @@
     min-width: 271px;
     display: flex;
     flex-direction: column;
-    outline: 2px solid tomato;
     gap: 16px;
 }
 
 @media only screen and (min-width: 768px) {
     .rent-title-wrapper {
-        min-width: 271px;
+        max-width: 287px;
         gap: 32px;
     }
 }
@@ -57,7 +76,7 @@
 @media only screen and (min-width: 1280px) {
     .rent-title-wrapper {
         gap: 64px;
-        min-width: 271px;
+        max-width: 282px;
     }
 }
 
@@ -73,43 +92,40 @@
 
 @media only screen and (min-width: 768px) {
     .rent-title {
+        /* width: 287px; */
         font-size: 60px;
         font-weight: 500;
         letter-spacing: -2.7px;
     }
 }
 
-@media only screen and (min-width: 1280px) {
-    .rent-title {
-        width: 282px;
-    }
-}
 
-
-.rent-img {
-    width: 100%;
-    height: auto;
-}
-
-
-.rent-form {
+.form-button-wrapper {
     display: flex;
     flex-direction: column;
-    outline: 2px solid tomato;
-    width: 100%;
+    justify-content: flex-end;
     gap: 24px;
+
 }
 
 @media only screen and (min-width: 768px) {
-    .rent-form {
+    .form-button-wrapper {
+        width: 364px;
         gap: 32px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
-    .rent-form {
+    .form-button-wrapper {
+        width: 443px;
         gap: 64px;
     }
+}
+
+.rent-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .rent-form-lbl {
@@ -123,11 +139,23 @@
     letter-spacing: -0.63px;
 }
 
+@media only screen and (min-width: 768px) {
+    .rent-form-lbl {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 19.2px */
+        letter-spacing: -0.72px;
+    }
+}
+
 .rent-form-input:focus-within+.rent-form-lbl {
     color: var(--primary-accent-color);
 }
 
 .rent-form-input {
+    margin-bottom: 28px;
     color: var(--white-text-color);
     font-size: 14px;
     font-weight: 400;
@@ -135,24 +163,12 @@
     letter-spacing: -0.28px;
 
     width: 100%;
-    height: 20px;
-    margin-bottom: 24px;
+    height: 16px;
 
     background-color: transparent;
-    outline: transparent;
 
     border: none;
     border-bottom: 1px solid var(--white-text-color);
-}
-
-@media only screen and (min-width: 768px) {
-    .rent-form-input {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 120%;
-        letter-spacing: -0.72px;
-    }
 }
 
 .rent-form-input:focus {
@@ -163,7 +179,6 @@
 .form-input-comment {
     width: 100%;
     height: 58px;
-    margin-bottom: 24px;
 
     color: var(--white-text-color);
     font-size: 14px;
@@ -172,21 +187,10 @@
     letter-spacing: -0.28px;
 
     background-color: transparent;
-    outline: transparent;
 
     border: none;
     border-bottom: 1px solid var(--white-text-color);
     resize: none;
-}
-
-@media only screen and (min-width: 768px) {
-    .form-input-comment {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 120%;
-        letter-spacing: -0.72px;
-    }
 }
 
 .form-input-comment:focus {
@@ -218,6 +222,20 @@
     gap: 16px;
 }
 
+@media only screen and (min-width: 768px) {
+    .rent-form-btn {
+        width: 132px;
+        height: 48px;
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        /* 19.8px */
+        letter-spacing: -0.81px;
+    }
+}
+
 .rent-form-btn:hover,
 .rent-form-btn:focus {
     color: var(--primary-accent-color);
@@ -244,8 +262,30 @@
     filter: blur(100px);
 
     position: absolute;
-    right: -141px;
-    bottom: -141px;
+    right: -142px;
+    bottom: -91px;
+}
+
+@media only screen and (min-width: 768px) {
+    .rent-light-circle {
+        width: 413px;
+        height: 413px;
+        border-radius: 414px;
+        transform: rotate(-44.094deg);
+        right: -270px;
+        bottom: -140px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .rent-light-circle {
+        width: 414px;
+        height: 414px;
+        border-radius: 414px;
+        transform: rotate(-45.074deg);
+        right: -212px;
+        bottom: -111px;
+    }
 }
 
 /**
@@ -300,6 +340,7 @@
     }
 }
 
+
 .modal-close-btn {
     padding: 0;
     position: absolute;
@@ -320,10 +361,19 @@
     stroke: var(--white-text-color);
 }
 
+.modal-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
 .modal-img-wrapper {
+    display: flex;
+    justify-content: center;
     width: 287px;
     height: auto;
-    margin: 0 24px auto;
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -339,12 +389,25 @@
     }
 }
 
+.modal-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+    .modal-text-wrapper {
+        gap: 16px;
+    }
+}
+
 .modal-window-text {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
     letter-spacing: -0.28px;
+    text-align: left;
 }
 
 @media only screen and (min-width: 768px) {
@@ -359,6 +422,7 @@
 }
 
 .modal-strong-text {
+    text-align: left;
     font-size: 24px;
     font-weight: 500;
     line-height: 120%;
@@ -379,7 +443,7 @@
 
 
 /* backgraund ellipse modal */
-.rent-light-circle {
+.modal-light-circle {
     width: 142px;
     height: 142px;
     transform: rotate(-44.916deg);
@@ -389,6 +453,15 @@
     filter: blur(100px);
 
     position: absolute;
-    left: 67px;
+    left: 78px;
     top: 46px;
+}
+
+@media only screen and (min-width: 768px) {
+    .modal-light-circle {
+        width: 265px;
+        height: 265px;
+        left: 143px;
+        top: 45px;
+    }
 }
