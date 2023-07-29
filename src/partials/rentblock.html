@@ -2,32 +2,65 @@
 
 <section class="rent-section">
     <div class="rent-wrapper container">
-        <h3 class="rent-title">Rent a yacht now</h3>
-        <img srcset="./img/Dekstop/rent-img@1.png 1x, ./img/Dekstop/rent-img@2.png 2x"
-            src="../img/Dekstop/rent-img@1.png" alt="sailing boat" class="rent-img" width="259" height="187">
-        <form action="" class="rent-form">
-            <label for="user-name" class="rent-form-lbl">
-                Full Name
-                <input type="text" class="rent-form-input" id="user-name" name="user-name">
-            </label>
-            <label for="user-email" class="rent-form-lbl">
-                Email
-                <input type="email" class="rent-form-input" id="user-email" name="user-email">
-            </label>
-            <label for="user-tel" class="rent-form-lbl">
-                Phone number
-                <input type="tel" class="rent-form-input" id="user-tel" name="user-tel">
-            </label>
-            <label for="" class="rent-form-lbl">
-                Comment
-                <textarea class="form-input-comment" name="user-comment" id="user-comment"></textarea>
-            </label>
-            <button class="rent-form-btn" type="submit">
-                <span class="form-label-btn">Send</span>
-                <svg class="rent-form-icon" width="18" height="19">
-                    <use href="#"></use>
+        <div class="rent-title-wrapper">
+            <h2 class="visually-hidden">Rent a yacht</h2>
+            <h3 class="rent-title">Rent a yacht now</h3>
+            <img srcset="./img/Dekstop/rent-img@1.png 1x, ./img/Dekstop/rent-img@2.png 2x"
+                src="../img/Dekstop/rent-img@1.png" alt="sailing boat" class="rent-img">
+        </div>
+        <div class="form-button-wrapper">
+            <form action="" class="rent-form" autocomplete="off" novalidate>
+                <label for="user-name" class="rent-form-lbl">
+                    Full Name
+                    <input type="text" class="rent-form-input" id="user-name" name="user-name">
+                </label>
+                <label for="user-email" class="rent-form-lbl">
+                    Email
+                    <input type="email" class="rent-form-input" id="user-email" name="user-email">
+                </label>
+                <label for="user-tel" class="rent-form-lbl">
+                    Phone number
+                    <input type="tel" class="rent-form-input" id="user-tel" name="user-tel">
+                </label>
+                <label for="" class="rent-form-lbl">
+                    Comment
+                    <textarea class="form-input-comment" name="user-comment" id="user-comment"></textarea>
+                </label>
+            </form>
+            <div class="rent-light-circle"></div>
+            <button class="rent-form-btn" type="button" data-modal-open>
+                Send
+                <svg class="rent-form-icon" width="18" height="9">
+                    <use href="../img/icons.svg#icon-arrow"></use>
                 </svg>
             </button>
-        </form>
+        </div>
     </div>
 </section>
+
+<!-- Modal window -->
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="modal-close-btn" data-modal-close>
+            <svg class="modal-close-icon" width="20" height="20">
+                <use href="../img/icons.svg#icon-close-btn"></use>
+            </svg>
+        </button>
+        <div class="modal-wrapper">
+            <div class="modal-img-wrapper">
+                <div class="modal-light-circle"></div>
+                <img class="rent-modal-img" src="../img/Dekstop/hero/yaht-png@1.png" alt="luxurias catamaran yacht">
+            </div>
+            <div class="modal-text-wrapper">
+                <p class="modal-window-text"><strong class="modal-strong-text">Thank you</strong></p>
+                <p class="modal-window-text">
+                    Thank you for choosing Yacht Adventures, your booking details have been received and
+                    our team will be in touch shortly to confirm your reservation and provide any additional information
+                    or
+                    assistance you may need.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <script src="./js/modal.js"></script> -->
