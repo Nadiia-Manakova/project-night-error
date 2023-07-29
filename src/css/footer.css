@@ -18,6 +18,8 @@
 }
 
 .footer {
+    position: relative;
+    overflow: hidden;
     padding-bottom: 14px;
 }
 
@@ -174,7 +176,7 @@
 
 .footer-networks-icon:hover, .footer-networks-icon:focus {
     fill: rgba(246, 245, 239, 0.50);
-    border-color: rgba(246, 245, 239, 0.50);
+    border-color: rgba(246, 245, 239, 0.50);  
 }
 
 .footer-networks-icon {
