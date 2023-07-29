@@ -60,6 +60,7 @@
         margin: 0 auto;
         padding-top: 100px;
         padding-bottom: 100px;
+        
     }
 
     .container .slider {
@@ -67,6 +68,7 @@
         padding: 0;
         margin-left: auto;
         margin-right: auto;
+        
     }
 
     .container .common {
@@ -173,11 +175,43 @@
     padding: 0;
     margin-left: auto;
     margin-right: auto;
-
-
-
-
 }
+
+
+
+
+.slider-images {
+    align-items: center;
+    width: 322px;
+    height: 268px;
+}
+
+
+.img-increase {
+    /* overflow: hidden; */
+    width: 322px;
+    height: 268px;
+}
+
+.img-increase img {
+    transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+.img-increase img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+
+
+
+
 
 .common {
     display: flex;

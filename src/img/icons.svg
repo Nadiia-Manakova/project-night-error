@@ -26,14 +26,6 @@
 <path d="M24 12.354l4.632 3.646-4.632 3.646v-3.015h-10.526v-1.263h10.526v-3.015z"></path>
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8421" d="M15.436 0.985h11.234c8.292 0 15.015 6.722 15.015 15.015v0c0 8.292-6.722 15.015-15.015 15.015h-11.234c-8.292 0-15.015-6.722-15.015-15.015v-0c0-8.292 6.722-15.015 15.015-15.015z"></path>
 </symbol>
-
 </defs>
 </svg>
-<!-- <symbol id="left" width="50" height="38" viewBox="0 0 50 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M21.5 14.6699L16 19L21.5 23.3302V19.75L34 19.75V18.25L21.5 18.25V14.6699Z" fill="#F6F5EF"/>
-<rect x="0.5" y="1.16992" width="49" height="35.6603" rx="17.8301" stroke="#F6F5EF"/>
-</symbol>
-<symbol id="right" width="50" height="38" viewBox="0 0 50 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M28.5 14.6699L34 19L28.5 23.3302V19.75L16 19.75V18.25L28.5 18.25V14.6699Z" fill="#F6F5EF"/>
-<rect x="0.5" y="1.16992" width="49" height="35.6603" rx="17.8301" stroke="#F6F5EF"/>
-</symbol> -->
+
