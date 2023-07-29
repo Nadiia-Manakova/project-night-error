@@ -1,6 +1,6 @@
-<section>
-  <div class="about-block">
-    <div class="about-topics-wrap">
+<section class="about-block">
+  <div class="container">
+    <div class="about-topics-wrap" id="about">
       <p class="about-pragraph">
         <span>Yacht Adventures </span>fleet is here to take you on the ultimate
         adventure. Each yacht is hand-picked for its comfort, style, and
@@ -20,53 +20,86 @@
         </li>
       </ul>
     </div>
-    <div class="about-images">
-      <picture class="about-image">
-        <source
-          srcset="
-            ./img/mobile/aboutblock/aboutblock-img-2@1.png 1x,
-            ./img/mobile/aboutblock/aboutblock-img-2@2.png 2x
-          "
-          media="(max-width:767px)"
-          type="image/png"
-        />
-        <source
-          srcset="
-            ./img/Dekstop/aboutblock/aboutblock-img-2@1.png 1x,
-            ./img/Dekstop/aboutblock/aboutblock-img-2@2.png 2x
-          "
-          media="(min-width:768px)"
-        />
-
-        <img
-          src="../img/Dekstop/aboutblock/aboutblock-img-2@1.png"
-          alt="Luxary yacht's roof and front side"
-        />
-      </picture>
-      <picture class="about-image">
-        <source
-          srcset="
-            ./img/mobile/aboutblock/aboutblock-img-1@1.png 1x,
-            ./img/mobile/aboutblock/aboutblock-img-1@2.png 2x
-          "
-          media="(max-width:767px)"
-          type="image/png"
-        />
-        <source
-          srcset="
-            ./img/Dekstop/aboutblock/aboutblock-img-1@1.png 1x,
-            ./img/Dekstop/aboutblock/aboutblock-img-1@2.png 2x
-          "
-          media="(min-width:768px)"
-        />
-
-        <img
-          src="../img/Dekstop/aboutblock/aboutblock-img-1@1.png"
-          alt="Luxary yacht inside"
-        />
-      </picture>
-      <div class="about-image-background"></div>
+    <div class="about-desktop-images">
+          <picture class="about-desktop-image" id="yachts">
+            <source
+              srcset="
+                ./img/mobile/aboutblock/aboutblock-img-1@1.png 1x,
+                ./img/mobile/aboutblock/aboutblock-img-1@2.png 2x
+              "
+              media="(max-width:767px)"
+              type="image/png"
+            />
+            <source
+              srcset="
+                ./img/Dekstop/aboutblock/aboutblock-img-1@1.png 1x,
+                ./img/Dekstop/aboutblock/aboutblock-img-1@2.png 2x
+              "
+              media="(min-width:768px)"
+            />
+            <img
+              src="../img/Dekstop/aboutblock/aboutblock-img-1@1.png"
+              alt="Luxary yacht inside"
+            />
+          </picture>
+        <div class="about-images">
+          <picture class="about-image">
+            <source
+              srcset="
+                ./img/mobile/aboutblock/aboutblock-img-2@1.png 1x,
+                ./img/mobile/aboutblock/aboutblock-img-2@2.png 2x
+              "
+              media="(max-width:767px)"
+              type="image/png"
+            />
+            <source
+              srcset="
+                ./img/tablet/aboutblock/aboutblock-img-1@1.png 1x,
+                ./img/tablet/aboutblock/aboutblock-img-1@2.png 2x
+              "
+              media="(min-width:768px)"
+              type="image/png"
+            />
+            <source
+              srcset="
+                ./img/Dekstop/aboutblock/aboutblock-img-2@1.png 1x,
+                ./img/Dekstop/aboutblock/aboutblock-img-2@2.png 2x
+              "
+              media="(min-width:1280px)"
+              type="image/png"
+            />
+            <img
+              src="./img/Dekstop/aboutblock/aboutblock-img-2@1.png"
+              alt="Luxary yacht's roof and front side"
+            />
+          </picture>
+          <div>
+            <picture class="about-image">
+              <source
+                srcset="
+                  ./img/mobile/aboutblock/aboutblock-img-1@1.png 1x,
+                  ./img/mobile/aboutblock/aboutblock-img-1@2.png 2x
+                "
+                media="(max-width:767px)"
+                type="image/png"
+              />
+              <source
+                srcset="
+                  ./img/Dekstop/aboutblock/aboutblock-img-1@1.png 1x,
+                  ./img/Dekstop/aboutblock/aboutblock-img-1@2.png 2x
+                "
+                media="(min-width:768px)"
+              />
+              <img
+                src="../img/Dekstop/aboutblock/aboutblock-img-1@1.png"
+                alt="Luxary yacht inside"
+              />
+            </picture>
+            <div class="about-image-background"></div>
+          </div>
+        </div>
     </div>
+
     <div class="title-button-wrap">
       <div class="about-big-circle"></div>
       <div class="about-small-circle"></div>

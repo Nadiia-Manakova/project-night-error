@@ -3,42 +3,29 @@
   | header styles
   |============================
 */
-.header-menu-open {
-  fill: var(--white-text-color);
-}
-@media only screen and (min-width: 767.98px) {
-  .js-open-menu .header-menu-open {
-    display: none;
-  }
-}
-.header-underline {
-  display: flex;
-  margin: 0 auto;
-  background-color: rgba(246, 245, 239, 0.2);
-}
 
 .header-container {
-  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+
+  margin-bottom: 40px;
 }
 
-@media only screen and (min-width: 768px) {
-  .header-img-mobile {
-    display: none;
-  }
+.header-logo {
+  padding: 28px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 8px;
 }
-@media only screen and (max-width: 767.98px) {
-  .header-img {
-    display: none;
-  }
-}
+
 .header-logo-text {
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 1.4;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-text-color);
@@ -59,20 +46,70 @@
   background-color: transparent;
   outline: none;
   border: none;
+  fill: var(--white-text-color);
 }
 .js-open-menu {
   padding: 24px 0;
 }
+@media only screen and (min-width: 768px) {
+  .js-open-menu {
+    padding: 32px 0;
+  }
+}
+@media only screen and (min-width: 767.98px) {
+  .js-open-menu .header-menu-open {
+    display: none;
+  }
+}
 
-.header-logo {
-  padding: 28px 0;
+/* header navigation*/
+.header-nav {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .header-nav {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .header-nav {
+    display: none;
+  }
+}
+.header-list {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  gap: 8px;
+  gap: 24px;
 }
 
+/* underline */
+
+.underline {
+  width: 100%;
+  height: 1px;
+  display: flex;
+
+  /* margin-left: 20px;
+  margin-right: 20px; */
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: rgba(246, 245, 239, 0.2);
+}
+.underline-mob {
+  width: 100%;
+  height: 1px;
+  display: block;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: rgba(246, 245, 239, 0.2);
+}
 /**
   |============================
   | header mobile menu
@@ -133,11 +170,6 @@
   line-height: 1.65;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-@media only screen and (min-width: 768px) {
-  .header-nav-link {
-    padding: 35px 0;
-  }
 }
 
 .header-navigation-list {
