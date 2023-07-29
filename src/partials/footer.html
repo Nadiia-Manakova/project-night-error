@@ -80,3 +80,33 @@
     <div class="footer-blur-background-small"></div>
   </div>
 </footer>
+
+<button onclick="topFunction()" id="myBtn">
+  <svg class="top-btn-icon" width="44" height="44">
+    <use href="../img/icons.svg#icon-arrow"></use>
+  </svg>
+</button>
+
+<script>
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      document.getElementById('myBtn').style.display = 'flex';
+    } else {
+      document.getElementById('myBtn').style.display = 'visible';
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
