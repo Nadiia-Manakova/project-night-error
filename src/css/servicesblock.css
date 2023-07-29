@@ -2,6 +2,10 @@
   padding-bottom: 80px;
 }
 
+.servicesblock-list {
+  position: relative;
+}
+
 .services-item {
   position: relative;
   width: 100%;
@@ -12,7 +16,7 @@
   margin: 0 auto 24px;
 }
 
-.services-item-diving {
+.services-item:nth-child(1) {
   background-image: linear-gradient(
       0deg,
       rgba(17, 19, 31, 0.2) 0%,
@@ -24,7 +28,7 @@
   background-position: center;
 }
 
-.services-item-fiching {
+.services-item:nth-child(2) {
   background-image: linear-gradient(
       0deg,
       rgba(17, 19, 31, 0.2) 0%,
@@ -36,7 +40,7 @@
   background-position: center;
 }
 
-.services-item-sunbathing {
+.services-item:nth-child(3) {
   background-image: linear-gradient(
       0deg,
       rgba(17, 19, 31, 0.2) 0%,
@@ -48,8 +52,8 @@
   background-position: center;
 }
 
-@media (min-resolution: 192dpi) {
-  .services-item-diving {
+@media (max-width: 767px) and (min-resolution: 192dpi) {
+  .services-item:nth-child(1) {
     background-image: linear-gradient(
         0deg,
         rgba(17, 19, 31, 0.2) 0%,
@@ -58,7 +62,7 @@
       url(../img/mobile/service/img-diving@2.jpg);
   }
 
-  .services-item-fiching {
+  .services-item:nth-child(2) {
     background-image: linear-gradient(
         0deg,
         rgba(17, 19, 31, 0.2) 0%,
@@ -67,7 +71,7 @@
       url(../img/mobile/service/img-fishing@2.jpg);
   }
 
-  .services-item-sunbathing {
+  .services-item:nth-child(3) {
     background-image: linear-gradient(
         0deg,
         rgba(17, 19, 31, 0.2) 0%,
@@ -88,4 +92,148 @@
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.63px;
+}
+
+@media screen and (min-width: 768px) {
+  .services-item {
+    padding: 32px;
+    margin-bottom: 32px;
+  }
+  .services-item:nth-child(1) {
+    max-width: 704px;
+    height: 632px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-diving@1.jpg);
+  }
+
+  .services-item:nth-child(2) {
+    max-width: 400px;
+    height: 389px;
+    position: relative;
+    left: 150px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-fishing@1.jpg);
+  }
+
+  .services-item:nth-child(3) {
+    max-width: 380px;
+    height: 352px;
+    position: relative;
+    right: 135px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-sunbathing@1.jpg);
+  }
+}
+
+@media (max-width: 1280px) and (min-resolution: 192dpi) {
+  .services-item:nth-child(1) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-diving@2.jpg);
+  }
+
+  .services-item:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-fishing@2.jpg);
+  }
+
+  .services-item:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-sunbathing@2.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .services-item {
+    padding: 32px;
+    margin-bottom: 32px;
+  }
+  .services-item:nth-child(1) {
+    max-width: 704px;
+    height: 632px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-diving@1.jpg);
+  }
+
+  .services-item:nth-child(2) {
+    max-width: 400px;
+    height: 389px;
+    position: relative;
+    left: 150px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-fishing@1.jpg);
+  }
+
+  .services-item:nth-child(3) {
+    max-width: 380px;
+    height: 352px;
+    position: relative;
+    right: 135px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-sunbathing@1.jpg);
+  }
+}
+
+@media (max-width: 1280px) and (min-resolution: 192dpi) {
+  .services-item:nth-child(1) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-diving@2.jpg);
+  }
+
+  .services-item:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-fishing@2.jpg);
+  }
+
+  .services-item:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(17, 19, 31, 0.2) 0%,
+        rgba(17, 19, 31, 0.2) 100%
+      ),
+      url(../img/tablet/service/img-sunbathing@2.jpg);
+  }
 }
