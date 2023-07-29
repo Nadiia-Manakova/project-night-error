@@ -258,8 +258,9 @@
   }
 
   .hidden-button {
-    transform: scale(0.1);
-    transition: all 0.8s ease-in-out;
+    transform: scale(0.5);
+    animation-delay: 0.2s;
+    transition: all 0.6s ease-in-out;
   }
 
   .show-button {
