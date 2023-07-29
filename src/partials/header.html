@@ -2,134 +2,110 @@
   <!-- logo -->
   <h2 class="visually-hidden header-title">header Yacht adventures</h2>
 
-  <div class="container header-container">
-    <a class="header-logo" href="./index.html">
-      <picture>
-        <source
-          srcset="
-            ./img/mobile/logo-mobile@1.png 1x,
-            ./img/mobile/logo-mobile@2.png 2x
-          "
-          media="(max-width:767.98px)"
-          type="image/png"
-        />
-        <source
-          srcset="
-            ./img/mobile/logo-mobile@1.webp 1x,
-            ./img/mobile/logo-mobile@2.webp 2x
-          "
-          media="(max-width:767.98px)"
-          type="image/webp"
-        />
-        <source
-          srcset="./img/Dekstop/logo@1.png 1x, ./img/Dekstop/logo@2.png 2x"
-          media="(min-width:768px)"
-          type="image/png"
-        />
-        <source
-          srcset="./img/mobile/logo@1.webp 1x, ./img/mobile/logo@2.webp 2x"
-          media="(min-width:768px)"
-          type="image/webp"
-        />
-
-        <img src="./img/mobile/logo-mobile@1.png" alt="logo jacht" />
-      </picture>
-
-      <span class="header-logo-text">YACHT ADVENTURES</span>
-    </a>
-
-    <!-- menu open -->
-
-    <button
-      class="js-open-menu header-menu-open"
-      aria-expanded="false"
-      aria-controls="mobile-menu"
-    >
-      <svg class="header-menu-open" width="24" height="24">
-        <use href="./img/icons.svg#icon-burger-menu"></use>
-      </svg>
-    </button>
-
-    <!-- links -->
-
-    <nav class="header-nav">
-      <ul class="header-list">
-        <li>
-          <a href="" target="_blank" id="about" class="link header-nav-link"></a
-          >About
-        </li>
-        <li>
-          <a
-            href=""
-            target="_blank"
-            id="yachts"
-            class="link header-nav-link"
-          ></a
-          >Yachts
-        </li>
-        <li>
-          <a
-            href=""
-            target="_blank"
-            id="reviews"
-            class="link header-nav-link"
-          ></a
-          >Reviews
-        </li>
-      </ul>
-    </nav>
-  </div>
-
-  <!-- underline -->
-
-  <div class="underline"></div>
-
-  <!-- mobile menu -->
-
-  <div class="menu-container js-menu-container" id="mobile-menu">
-    <a class="link header-logo header-logo-menu" href="./index.html">
-      <img
-        srcset="
-          ./img/mobile/logo-mobile@1.png 1x,
-          ./img/mobile/logo-mobile@2.png 2x
-        "
-        src="./img/mobile/logo-mobile@1.png"
-        alt="logo yacht"
-        width="16"
-        height="18"
-      />
-      <span class="header-logo-text">YACHT ADVENTURES</span>
-    </a>
-
-    <div class="underline-mob"></div>
-
-    <button class="js-close-menu">
-      <svg class="header-menu-close" width="24" height="24">
-        <use href="../img/icons.svg#icon-close-btn"></use>
-      </svg>
-    </button>
-
-    <nav>
-      <ul class="header-navigation-list">
-        <li class="header-navigation-item">
-          <a href="" target="_blank" id="about" class="link header-nav-link"
-            >About</a
-          >
-        </li>
-        <li class="header-navigation-item">
-          <a href="" target="_blank" id="yachts" class="link header-nav-link"
-            >Yachts</a
-          >
-        </li>
-        <li class="header-navigation-item">
-          <a href="" target="_blank" id="reviews" class="link header-nav-link"
-            >Reviews</a
-          >
-        </li>
-      </ul>
-    </nav>
-    <div class="header-light-left"></div>
-    <div class="header-light-right"></div>
+  <div class="container">
+    <div class="header-container">
+      <a class="header-logo" href="./index.html">
+        <picture>
+          <source
+            srcset="
+              ./img/mobile/logo-mobile@1.png 1x,
+              ./img/mobile/logo-mobile@2.png 2x
+            "
+            media="(max-width:767.98px)"
+            type="image/png"
+          />
+          <source
+            srcset="
+              ./img/mobile/logo-mobile@1.webp 1x,
+              ./img/mobile/logo-mobile@2.webp 2x
+            "
+            media="(max-width:767.98px)"
+            type="image/webp"
+          />
+          <source
+            srcset="./img/Dekstop/logo@1.png 1x, ./img/Dekstop/logo@2.png 2x"
+            media="(min-width:768px)"
+            type="image/png"
+          />
+          <source
+            srcset="./img/mobile/logo@1.webp 1x, ./img/mobile/logo@2.webp 2x"
+            media="(min-width:768px)"
+            type="image/webp"
+          />
+          <img src="./img/mobile/logo-mobile@1.png" alt="logo jacht" />
+        </picture>
+        <span class="header-logo-text">YACHT ADVENTURES</span>
+      </a>
+      <!-- menu open -->
+      <button
+        class="js-open-menu header-menu-open"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="header-menu-open" width="24" height="24">
+          <use href="./img/icons.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+      <!-- links -->
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li>
+            <a href="#about" target="_blank" class="header-nav-link">About</a>
+          </li>
+          <li>
+            <a href="#yachts" target="_blank" class="header-nav-link">Yachts</a>
+          </li>
+          <li>
+            <a href="#reviews" target="_blank" class="header-nav-link"
+              >Reviews</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- underline -->
+      <!-- <div class="underline"></div> -->
+      <!-- mobile menu -->
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <a class="link header-logo header-logo-menu" href="./index.html">
+          <img
+            srcset="
+              ./img/mobile/logo-mobile@1.png 1x,
+              ./img/mobile/logo-mobile@2.png 2x
+            "
+            src="./img/mobile/logo-mobile@1.png"
+            alt="logo yacht"
+            width="16"
+            height="18"
+          />
+          <span class="header-logo-text">YACHT ADVENTURES</span>
+        </a>
+        <div class="underline"></div>
+        <button class="js-close-menu">
+          <svg class="header-menu-close" width="24" height="24">
+            <use href="./img/icons.svg#icon-close-btn"></use>
+          </svg>
+        </button>
+        <nav>
+          <ul class="header-navigation-list">
+            <li class="header-navigation-item">
+              <a href="#about" target="_blank" class="header-nav-link">About</a>
+            </li>
+            <li class="header-navigation-item">
+              <a href="#yachts" target="_blank" class="header-nav-link"
+                >Yachts</a
+              >
+            </li>
+            <li class="header-navigation-item">
+              <a href="#reviews" target="_blank" class="header-nav-link"
+                >Reviews</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header-light-left"></div>
+        <div class="header-light-right"></div>
+      </div>
+    </div>
   </div>
 </header>
 
