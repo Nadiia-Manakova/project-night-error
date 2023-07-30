@@ -5,8 +5,21 @@
         <div class="rent-title-wrapper">
             <h2 class="visually-hidden">Rent a yacht</h2>
             <h3 class="rent-title">Rent a yacht now</h3>
-            <img srcset="./img/Dekstop/rent-img@1.png 1x, ./img/Dekstop/rent-img@2.png 2x"
-                src="../img/Dekstop/rent-img@1.png" alt="sailing boat" class="rent-img">
+            <picture class="rent-img">
+                <source srcset="
+                            ../img/mobile/rent-img@1.png 1x,
+                            ../img/mobile/rent-img@1.png 2x
+                          " media="(max-width:767px)" type="image/png">
+                <source srcset="
+                            ./img/Dekstop/rent-img@1.png 1x, 
+                            ./img/Dekstop/rent-img@2.png 2x
+                          " media="(min-width:768px)">
+                <img src="../img/Dekstop/rent-img@1.png" alt="Luxary sailing boat">
+            </picture>
+            <!-- <img srcset="
+                ./img/Dekstop/rent-img@1.png 1x, 
+                ./img/Dekstop/rent-img@2.png 2x" src="../img/Dekstop/rent-img@1.png" alt="sailing boat"
+                class="rent-img"> -->
         </div>
         <div class="form-button-wrapper">
             <form action="" class="rent-form" autocomplete="off" novalidate>
@@ -49,6 +62,17 @@
         <div class="modal-wrapper">
             <div class="modal-img-wrapper">
                 <div class="modal-light-circle"></div>
+                <picture class="rent-img">
+                    <source srcset="
+                                    ../img/mobile/hero/yaht-png@1.png 1x,
+                                    ../img/mobile/hero/yaht-png@2.png 2x
+                                    " media="(max-width:767px)" type="image/png">
+                    <source srcset="
+                                    ../img/mobile/hero/yaht-png@1.png 1x, 
+                                    ../img/mobile/hero/yaht-png@2.png 2x
+                                    " media="(min-width:768px)">
+                    <!-- <img src="../img/Dekstop/hero/yaht-png@1.png" alt="luxurias catamaran yacht"> -->
+                </picture>
                 <img class="rent-modal-img" src="../img/Dekstop/hero/yaht-png@1.png" alt="luxurias catamaran yacht">
             </div>
             <div class="modal-text-wrapper">
