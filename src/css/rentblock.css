@@ -18,7 +18,6 @@
 
 .rent-section {
     /* position: relative; */
-    /* overflow: hidden; */
     margin-bottom: 80px;
 }
 
@@ -34,9 +33,9 @@
     }
 }
 
+
 .rent-wrapper {
     position: relative;
-    /* overflow: hidden; */
 
     display: flex;
     flex-direction: column;
@@ -240,6 +239,7 @@
 .rent-form-btn:focus {
     color: var(--primary-accent-color);
     border-color: var(--primary-accent-color);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rent-form-icon {
@@ -252,41 +252,43 @@
 }
 
 /* backgraund ellipse */
-.rent-light-circle {
+/* .rent-light-circle {
     width: 283px;
     height: 283px;
-    transform: rotate(-44.916deg);
     border-radius: 283px;
+
+    transform: rotate(-44.916deg);
+
     opacity: 0.6;
     background-color: var(--background-color-blur);
     filter: blur(100px);
 
     position: absolute;
-    right: -142px;
-    bottom: -91px;
-}
+    right: 0;
+    bottom: 0;
+} */
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
     .rent-light-circle {
         width: 413px;
         height: 413px;
         border-radius: 414px;
         transform: rotate(-44.094deg);
-        right: -270px;
-        bottom: -140px;
+        right: -35%;
+        bottom: -40%;
     }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 1280px) {
     .rent-light-circle {
         width: 414px;
         height: 414px;
         border-radius: 414px;
         transform: rotate(-45.074deg);
-        right: -212px;
-        bottom: -111px;
+        right: 0;
+        bottom: 0;
     }
-}
+} */
 
 /**
    |============================
