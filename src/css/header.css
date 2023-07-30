@@ -31,6 +31,10 @@
   color: var(--white-text-color);
 }
 @media only screen and (min-width: 768px) {
+  .header-container {
+    margin-bottom: 64px;
+  }
+
   .header-logo-text {
     font-size: 18px;
     line-height: 1.8;
