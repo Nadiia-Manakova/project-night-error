@@ -1,5 +1,6 @@
 import "./js/mobile-menu"
 import "./js/scroll-triggered-animation"
 import "./js/slider-yachts"
+import "./js/serviceblock-scroll"
 import "./js/modal"
 import "./js/slider-clients"
