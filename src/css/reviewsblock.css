@@ -1,23 +1,5 @@
 
 
-.div-reviewsblock{
-    width: 335px;
-    
-}
-@media screen and (min-width: 768px){
-    .div-reviewsblock{
-        width: 704px;
-
-    }
-}
-@media screen and (min-width: 1280px){
-    .div-reviewsblock{
-        width: 1216px;
-        height: 282px;
-        display: flex;
-        
-    }
-}
 .advanture{
     width: 335px;
 }
@@ -43,7 +25,7 @@
     margin-right: auto;
 }
 .task-styless-our{
-    color: var(--white-text-color #F6F5EF);
+    color: var(--white-text-color);
     font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
@@ -80,8 +62,6 @@
     }
 }
 .div-advanture{
-    flex-direction: column;
-    padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -89,7 +69,7 @@
 @media screen and (min-width: 768px) {
     .div-advanture {
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
@@ -178,17 +158,11 @@
     }
 }
 .div-styless-yacht{
-    width: 335px;
-    height: 116px;
     margin-bottom: 24px;
 }
 @media screen and (min-width: 768px) {
     .div-styless-yacht {
         width: 497px;
-        height: 114px;
-        padding-bottom: 206px;
-        margin-left: auto;
-        
     }
 }
 
@@ -199,16 +173,14 @@
 }
 
 .div-task-styless{
-    width: 335px;
+    
     height: 80px;
     margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
     .div-task-styless {
     width: 273px;
-    height: 110px;
-    margin-bottom: 64px;
-    
+
     }
 }
 
@@ -217,5 +189,109 @@
        padding-top: 0;
     }
 }
-/* ============================================================== */
+/* =====================SLIDER========================================= */
+.slider>div {
+    
+    
 
+}
+
+@media screen and (min-width: 768px) {
+    .slider {
+    width: calc((100% - 16px) / 2);
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .slider {
+        width: 1216px;
+        height: 282px;
+        display: flex;
+
+    }
+}
+
+
+
+.slick-prev:before {
+    content: '←';
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(27, 17, 108);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.my-dots {
+    position: absolute;
+    bottom: -45px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.my-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.my-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.my-dots li button:hover,
+.my-dots li button:focus {
+    outline: none;
+}
+
+.my-dots li button:hover:before,
+.my-dots li button:focus:before {
+    opacity: 1;
+}
+
+.my-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: url('https://upload.wikimedia.org/wikipedia/commons/b/b7/Rule_Segment_-_Circle_open_-_20px.svg');
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.my-dots li.slick-active button:before {
+    opacity: .75;
+    color: rgb(135, 19, 19);
+}

@@ -1,6 +1,6 @@
 $('.autoplay').slick({
     dots: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     dotsClass: "my-dots",
     autoplay: true,
