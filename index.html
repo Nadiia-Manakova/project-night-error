@@ -1,34 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKiSURBVHgBxZU9bxNBEIZndtcJCYTwUSEBcUUJSp0iRgghOgwSEgUS/AI6WkSBRIfoaaBBQooJLjDCSs4YJVYqhFJSINc0SYoE27czzOyeLTsELoQiK9/Hzs09O/PO3BohZ9SSpOjG7LqbnDp3eXZ2I8/f5Dm4I64IwMeIt6dhHyMXaNkyIrLeLzSbZ/4b6NEjM6Pej1F6p9poLLyp16cPDNTBo7ObBWvW3ibJiQMBNeXdNgS8QATL1Wp18p+ASysrM957FADAznC4Mmea3Zk4+mTfwKVW8x5auhYZQpkYhMcyV0319OB1rV7KBdZaSVEuz4kI93isEUudIBbL4qO/AhU2DjYR0pQxhq3lqGGWspJChKhkYRLMv3r/cX5P4ACGOKORaIRBwqwsukDIlUNhOLYTa5eWfwMmo7BdScaLLsAxZ8h0DFEK+9YIsLG2Wma2X+S2qKv2G3kwlDLRZwcm92EhWMCzLyuV02pz0d9fFMSiwRgwiTA6CtZ98+A57adcGF/odrcq0JH+VFkRTzm2xyWsS+dPljeHkvnzqH9OSowmseiKV+bm2nn++V8KFn6IXh+2ut1NOIyBy61P37WpeGgLwEwJzqxeJPVelCY5WDXmYEvlRDrX50DylgHHRI/R2AAh8hFobASqp8rvxV0e6SwcAqTYgeLjQ901BIU6tG497cGU1tviOOv+h7LD6KYAToyp7okittxqP/mOPJfPx6ldfDSulFKwYoOObzvJ6bZ1/DCGloZ2QOPZYuxFtsCGTIxKWtg4G1PX7jOSpNidddr0XwF+lkwhhaeySPjzQcy0yxqbeaArxoYfEj98IZnUyC+ot126Xy5vBFOy2rwh7s/ErThSMVnAi46hKBSLIj/2Gi1xOyV+1/O8ePf61Ub/nV+3/V7p03TqTAAAAABJRU5ErkJggg==" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yacht Adventures</title>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      rel="stylesheet"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
-    />
-    
-    <script type="module" crossorigin src="/project-night-error/assets/index-5ad02086.js"></script>
-    <link rel="stylesheet" href="/project-night-error/assets/index-4b78a169.css">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKiSURBVHgBxZU9bxNBEIZndtcJCYTwUSEBcUUJSp0iRgghOgwSEgUS/AI6WkSBRIfoaaBBQooJLjDCSs4YJVYqhFJSINc0SYoE27czzOyeLTsELoQiK9/Hzs09O/PO3BohZ9SSpOjG7LqbnDp3eXZ2I8/f5Dm4I64IwMeIt6dhHyMXaNkyIrLeLzSbZ/4b6NEjM6Pej1F6p9poLLyp16cPDNTBo7ObBWvW3ibJiQMBNeXdNgS8QATL1Wp18p+ASysrM957FADAznC4Mmea3Zk4+mTfwKVW8x5auhYZQpkYhMcyV0319OB1rV7KBdZaSVEuz4kI93isEUudIBbL4qO/AhU2DjYR0pQxhq3lqGGWspJChKhkYRLMv3r/cX5P4ACGOKORaIRBwqwsukDIlUNhOLYTa5eWfwMmo7BdScaLLsAxZ8h0DFEK+9YIsLG2Wma2X+S2qKv2G3kwlDLRZwcm92EhWMCzLyuV02pz0d9fFMSiwRgwiTA6CtZ98+A57adcGF/odrcq0JH+VFkRTzm2xyWsS+dPljeHkvnzqH9OSowmseiKV+bm2nn++V8KFn6IXh+2ut1NOIyBy61P37WpeGgLwEwJzqxeJPVelCY5WDXmYEvlRDrX50DylgHHRI/R2AAh8hFobASqp8rvxV0e6SwcAqTYgeLjQ901BIU6tG497cGU1tviOOv+h7LD6KYAToyp7okittxqP/mOPJfPx6ldfDSulFKwYoOObzvJ6bZ1/DCGloZ2QOPZYuxFtsCGTIxKWtg4G1PX7jOSpNidddr0XwF+lkwhhaeySPjzQcy0yxqbeaArxoYfEj98IZnUyC+ot126Xy5vBFOy2rwh7s/ErThSMVnAi46hKBSLIj/2Gi1xOyV+1/O8ePf61Ub/nV+3/V7p03TqTAAAAABJRU5ErkJggg==" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yacht Adventures</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" rel="stylesheet"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  
+  <script type="module" crossorigin src="/project-night-error/assets/index-5ad02086.js"></script>
+  <link rel="stylesheet" href="/project-night-error/assets/index-4b78a169.css">
+</head>
 
-  <body>
-    <header class="header">
+<body>
+  <header class="header">
   <!-- logo -->
   <!--<h2 class="visually-hidden header-title">header Yacht adventures</h2>
 -->
@@ -130,8 +116,8 @@
   </div>
 </header>
 
-    <main>
-      <section>
+  <main>
+    <section>
   <div class="hero">
     <div class="hero-container container">
       <div class="hero-column hero-offer">
@@ -301,7 +287,7 @@
   </div>
 </section>
 
-      <section class="about-block">
+    <section class="about-block">
   <div class="container">
     <div class="about-topics-wrap" id="about">
       <p class="about-pragraph">
@@ -397,7 +383,7 @@
   </div>
 </section>
 
-      <section>
+    <section>
   <div class="container">
     <div class="block-yahtsblock">
       <div class="slider autoplay distance">
@@ -843,7 +829,7 @@
   </div>
 </section>
 
-      <section class="servicesblock">
+    <section class="servicesblock">
   <div class="servicesblock-container container" id="services">
     <h2 class="services-title visually-hidden">Our Services</h2>
     <ul class="servicesblock-list">
@@ -867,7 +853,7 @@
   </div>
 </section>
 
-      <!-- Rent Block Section - Mykola Kalchenko -->
+    <!-- Rent Block Section - Mykola Kalchenko -->
 
 <section class="rent-section" id="rent">
     <div class="rent-wrapper container">
@@ -881,7 +867,7 @@
             </picture>
         </div>
         <div class="form-button-wrapper">
-            <form action="" class="rent-form" autocomplete="on">
+            <form action="" class="rent-form" autocomplete="on" novalidate>
                 <label for="user-name" class="rent-form-lbl">
                     Full Name
                     <input type="text" class="rent-form-input" id="user-name" name="user-name">
@@ -912,38 +898,37 @@
 </section>
 
 <!-- Modal window -->
-<div class="backdrop is-hidden" data-modal>
-  <div class="modal">
-    <button class="modal-close-btn" data-modal-close>
-      <svg class="modal-close-icon" width="20" height="20">
-        <use href="../img/icons.svg#icon-close-btn"></use>
-      </svg>
-    </button>
-    <div class="modal-wrapper">
-      <div class="modal-img-wrapper">
-        <div class="modal-light-circle"></div>
-        <img
-          class="rent-modal-img"
-          src="../img/Dekstop/hero/yaht-png@1.png"
-          alt="luxurias catamaran yacht"
-        />
-      </div>
-      <div class="modal-text-wrapper">
-        <p class="modal-window-text">
-          <strong class="modal-strong-text">Thank you</strong>
-        </p>
-        <p class="modal-window-text">
-          Thank you for choosing Yacht Adventures, your booking details have
-          been received and our team will be in touch shortly to confirm your
-          reservation and provide any additional information or assistance you
-          may need.
-        </p>
-      </div>
+    <div class="modal">
+        <button class="modal-close-btn" data-modal-close>
+            <svg class="modal-close-icon" width="20" height="20">
+                <use href="/project-night-error/assets/icons-1e6f8b88.svg#icon-close-btn"></use>
+            </svg>
+        </button>
+        <div class="modal-wrapper">
+            <div class="modal-img-wrapper">
+                <div class="modal-light-circle"></div>
+                <picture class="rent-img">
+                    <source srcset="/project-night-error/assets/yaht-png@1-8b6e2cc3.png 1x, /project-night-error/assets/yaht-png@2-62e989ac.png 2x"
+                        media="(max-width:767px)" type="image/png">
+                    <source srcset="/project-night-error/assets/yaht-png@1-8b6e2cc3.png 1x, /project-night-error/assets/yaht-png@2-62e989ac.png 2x"
+                        media="(min-width:768px)" type="image/png">
+                    <img class="rent-modal-img" src="/project-night-error/assets/yaht-png@1-e663ee69.png" alt="luxurias catamaran yacht">
+                </picture>
+            </div>
+            <div class="modal-text-wrapper">
+                <p class="modal-window-text"><strong class="modal-strong-text">Thank you</strong></p>
+                <p class="modal-window-text">
+                    Thank you for choosing Yacht Adventures, your booking details have been received and
+                    our team will be in touch shortly to confirm your reservation and provide any additional information
+                    or
+                    assistance you may need.
+                </p>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
-      <section class="reviewsblock">
+    <section class="reviewsblock">
   <div class="advanture div-advanture container" id="#review">
     <div class="div-styless-yacht">
       <p class="styless-yacht-task">
@@ -1066,8 +1051,8 @@
   </div>
 </section>
 
-    </main>
-    <footer class="footer">
+  </main>
+  <footer class="footer">
   <div class="footer-container container">
     <div class="footer-desktop">
       <nav class="footer-nav">
@@ -1166,7 +1151,7 @@
 
 <button onclick="topFunction()" id="myBtn">
   <svg class="top-btn-icon" width="44" height="44">
-    <use href="/project-night-error/assets/icons-1e6f8b88.svg#icon-arrow"></use>
+    <use href="../img/icons.svg#icon-arrow"></use>
   </svg>
 </button>
 
@@ -1182,26 +1167,15 @@
 </script>
 
 
-    <!-- Scripts -->
+  <!-- Scripts -->
 
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    
-  </body>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
+</body>
+
 </html>
