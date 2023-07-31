@@ -258,12 +258,12 @@
 
 
 
-.slick-prev:before {
+.reviewsblock .slick-prev:before {
   content: '←';
 }
 
-.slick-prev:before,
-.slick-next:before {
+.reviewsblock .slick-prev:before,
+.reviewsblock .slick-next:before {
   font-family: 'slick';
   font-size: 0px;
   line-height: 1;
@@ -309,13 +309,13 @@
   background: transparent;
 }
 
-.my-dots li button:hover,
-.my-dots li button:focus {
+.reviewsblock .my-dots li button:hover,
+.reviewsblock .my-dots li button:focus {
   outline: none;
 }
 
-.my-dots li button:hover:before,
-.my-dots li button:focus:before {
+.reviewsblock .my-dots li button:hover:before,
+.reviewsblock .my-dots li button:focus:before {
   opacity: 1;
 }
 
