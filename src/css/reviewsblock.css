@@ -1,231 +1,438 @@
+.div-reviewsblock {
+  width: 375px;
+  height: 282px;
+  margin: 0 auto;
+}
 
-
-.div-reviewsblock{
-    width: 335px;
-    height: 282px;
-}
-@media screen and (min-width: 768px){
-    .div-reviewsblock{
-        width: 704px;
-
-    }
-}
-@media screen and (min-width: 1280px){
-    .div-reviewsblock{
-        width: 1216px;
-        display: flex;
-        
-    }
-}
-.advanture{
-    width: 335px;
-}
 @media screen and (min-width: 768px) {
-    .advanture {
-        width: 704px;
-
-    }
+  .div-reviewsblock {
+    width: 768px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .advanture {
-        width: 1216px;
-    }
-}
-.styless-yacht{
-    font-family: DM Sans;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 120%;
-    letter-spacing: -1.08px;
-    background: var(--linear-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.styless-yacht-task{
-    font-family: DM Sans;
-    font-size: 24px;
-    line-height: 120%;
-    letter-spacing: -1.08px;
-    font-weight: 500;
-    margin-right: auto;
-}
-.task-styless-our{
-    color: var(--white-text-color #F6F5EF);
-    font-family: DM Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    width: 100%;
-    
-    letter-spacing: -0.28px;
-}
-
-
-.div-block{
-       
-    flex-direction: column;   
-    height: 208px;
-    padding: 24px;
-    
-    align-items: center;
-    gap: 8px;
-    flex-shrink: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-@media screen and (min-width: 768px) {
-    .div-block {
-        gap: 16px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .div-block {
-        gap: 32px;
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-    }
-}
-.div-advanture{
-    flex-direction: column;
-    padding: 0 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-@media screen and (min-width: 768px) {
-    .div-advanture {
-        display: flex;
-        flex-direction: row;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .div-advanture {
-        
-    }
-}
-
-.review-people{
-    margin-bottom: 18px;
-    border-radius: 24px;
-    background: #1F212D;
-
+  .div-reviewsblock {
+    width: 1280px;
     display: flex;
-    width: 384px;
-    padding: 32px;
+    margin: 0 auto;
+  }
+}
+
+.advanture {
+  width: 335px;
+}
+
+@media screen and (min-width: 768px) {
+  .advanture {
+    width: 704px;
+
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advanture {
+    width: 1280px;
+  }
+}
+
+.styless-yacht {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1.08px;
+  background: var(--linear-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.styless-yacht-task {
+  font-family: DM Sans;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -1.08px;
+  font-weight: 500;
+  margin-right: auto;
+}
+
+.task-styless-our {
+  color: var(--white-text-color #F6F5EF);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: 100%;
+
+  letter-spacing: -0.28px;
+}
+
+
+.div-block {
+
+  flex-direction: column;
+  height: 208px;
+  padding: 24px;
+
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .div-block {
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .div-block {
+    gap: 32px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.div-advanture {
+  flex-direction: column;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .div-advanture {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .div-advanture {}
+}
+
+
+
+.review-people {
+  margin-bottom: 18px;
+  border-radius: 24px;
+  background: #1F212D;
+
+  display: flex;
+  width: 335px;
+  height: 208px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+}
+
+@media screen and (min-width: 768px) {
+  .review-people {
+    display: flex;
+    width: 344px;
+    height: 266px;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
-    
-}
-@media screen and (min-width: 768px) {
-    .review-people {
-        display: flex;
+    gap: 24px;
+    margin: 0 8px;
 
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-
-    }
+  }
 
 }
 
 @media screen and (min-width: 1280px) {
-    .review-people{
-        display: flex;
-        width: 384px;
-      
-    }
+  .review-people {
+    display: flex;
+    width: 484px;
+    height: 282px;
+
+  }
 }
-.people-name{
-    
-    color: var(--white, #F6F5EF);
-    text-align: center;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 110%;
-   
-    letter-spacing: -0.72px;
+
+.people-name {
+
+  color: var(--white, #F6F5EF);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+
+  letter-spacing: -0.72px;
 }
-.people-page{
-    color: rgba(246, 245, 239, 0.50);
-    text-align: center;
-    font-family: DM Sans;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    letter-spacing: -0.24px;
-    
+
+.people-page {
+  color: rgba(246, 245, 239, 0.50);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.24px;
+
 }
-.img-people{
+
+.img-people {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviewsblock {
+
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviewsblock {
+
+    padding-bottom: 100px;
+
+
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviewsblock {
+
+    padding-bottom: 164px;
+  }
+}
+
+.div-styless-yacht {
+  width: 335px;
+  height: 116px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .div-styless-yacht {
+    width: 497px;
+    height: 114px;
+    padding-bottom: 206px;
     margin-left: auto;
-    margin-right: auto;
-}
-.reviewsblock{
-    
-    padding-bottom: 80px;
-}
-@media screen and (min-width: 768px) {
-    .reviewsblock {
-        
-        padding-bottom: 100px;
-        
 
-    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .reviewsblock {
-        
-        padding-bottom: 164px;
-    }
-}
-.div-styless-yacht{
-    width: 335px;
-    height: 116px;
-    margin-bottom: 24px;
-}
-@media screen and (min-width: 768px) {
-    .div-styless-yacht {
-        width: 497px;
-        height: 114px;
-        padding-bottom: 206px;
-        margin-left: auto;
-        
-    }
+  .div-styless-yacht {}
 }
 
-@media screen and (min-width: 1280px) {
-    .div-styless-yacht{
-        
-    }
+.div-task-styless {
+  width: 335px;
+  height: 80px;
 }
 
-.div-task-styless{
-    width: 335px;
-    height: 80px;
-}
 @media screen and (min-width: 768px) {
-    .div-task-styless {
+  .div-task-styless {
     width: 273px;
     height: 110px;
     padding-top: 64px;
-    
-    }
+
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .div-task-styless {
-       padding-top: 0;
-    }
+  .div-task-styless {
+    padding-top: 0;
+  }
 }
-/* ============================================================== */
 
+/* ----------------------Taras add----------------------------------------------- */
+
+
+
+
+
+
+
+
+
+.slick-prev:before {
+  content: '←';
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 0px;
+  line-height: 1;
+  opacity: .75;
+  color: rgb(27, 17, 108);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.reviewsblock .my-dots {
+  position: absolute;
+  bottom: -49px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.reviewsblock .my-dots li {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.reviewsblock .my-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 15px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.my-dots li button:hover,
+.my-dots li button:focus {
+  outline: none;
+}
+
+.my-dots li button:hover:before,
+.my-dots li button:focus:before {
+  opacity: 1;
+}
+
+.reviewsblock .my-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 13px;
+  height: 13px;
+  content: url('../img/dots.svg');
+  text-align: center;
+  opacity: .25;
+  color: black;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.reviewsblock .my-dots li.slick-active button:before {
+  opacity: .75;
+  /* color: rgb(135, 19, 19); */
+  color: #88B3B9;
+}
+
+
+.reviewsblock .slider {
+  width: 335px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.reviewsblock .slick-prev {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: -1;
+  width: 50px;
+  height: 38px;
+}
+
+
+.reviewsblock .slick-next {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: -1;
+  width: 50px;
+  height: 38px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .reviewsblock .slider {
+    width: 704px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+    .reviewsblock .my-dots {
+      position: absolute;
+      bottom: -104px;
+      display: block;
+      width: 100%;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+    }
+
+  .reviewsblock .slick-prev {
+
+    position: absolute;
+    top: -450px;
+    left: 150px;
+    z-index: -1;
+    width: 50px;
+    height: 38px;
+  }
+
+
+  .reviewsblock .slick-next {
+
+    position: absolute;
+    top: -450px;
+    right: 450px;
+    z-index: -1;
+    width: 50px;
+    height: 38px;
+  }
+
+}
+
+
+@media screen and (min-width: 1280px) {
+  .reviewsblock .slider {
+    display: none;
+
+    /* width: 1216px;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto; */
+
+  }
+
+  .reviewsblock .doble-div {
+    display: flex;
+  }
+
+}
+
+.doble-div {
+  display: none;
+}

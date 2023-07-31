@@ -4,17 +4,40 @@
       <nav class="footer-nav">
         <div class="footer-logo">
           <a class="footer-logo-link" href="./" target="_blank">
-            <img
-              class="footer-logo-yacht"
-              src="./img/mobile/logo-mobile@1.png"
-              srcset="
-                ./img/mobile/logo-mobile@1.png 1x,
-                ./img/mobile/logo-mobile@2.png 2x
-              "
-              alt="logo-yacht"
-              width="16"
-              height="18"
-            />
+            <picture>
+              <!-- Desktop screen -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./img/Dekstop/logo@1.png 1x,
+                  ./img/Dekstop/logo@2.png 2x
+                "
+                type="image/png"
+              />
+              <!-- Tablet screen -->
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./img/Dekstop/logo@1.png 1x,
+                  ./img/Dekstop/logo@2.png 2x
+                "
+                type="image/png"
+              />
+              <!-- Mobile screen -->
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/mobile/logo-mobile@1.png 1x,
+                  ./img/mobile/logo-mobile@2.png 2x
+                "
+                type="image/png"
+              />
+              <img
+                class="footer-logo-yacht"
+                src="./img/mobile/logo-mobile@1.png 1x"
+                alt="logo-yacht"
+              />
+            </picture>
             Yacht adventures
           </a>
         </div>
@@ -80,3 +103,20 @@
     <div class="footer-blur-background-small"></div>
   </div>
 </footer>
+
+<button onclick="topFunction()" id="myBtn">
+  <svg class="top-btn-icon" width="44" height="44">
+    <use href="../img/icons.svg#icon-arrow"></use>
+  </svg>
+</button>
+
+<script>
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>

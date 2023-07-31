@@ -1,5 +1,6 @@
 .footer-container {
-    position: relative;
+  position: relative;
+  padding-bottom: 14px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -18,9 +19,8 @@
 }
 
 .footer {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 14px;
+  position: relative;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 768px) {
@@ -30,10 +30,11 @@
 }
 
 .footer-vector {
-    margin-bottom: 41px;
+  margin-bottom: 41px;
 }
 
-.footer-nav {}
+.footer-nav {
+}
 
 @media only screen and (min-width: 768px) {
   .footer-nav {
@@ -41,13 +42,14 @@
   }
 }
 
-.footer-logo {}
+.footer-logo {
+}
 
 @media only screen and (max-width: 767.98px) {
   .footer-logo {
     margin-bottom: 41px;
   }
-} 
+}
 
 @media only screen and (min-width: 768px) {
   .footer-logo {
@@ -56,37 +58,35 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .footer-logo {
-        margin-right: 316px;
-    }
+  .footer-logo {
+    margin-right: 316px;
+  }
 }
 
 .footer-container::before {
-    display: block;
-    content: "";
-    position: absolute;
-    flex-shrink: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: rgba(246, 245, 239, 0.20);;    
+  display: block;
+  content: '';
+  position: absolute;
+  flex-shrink: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(246, 245, 239, 0.2);
 }
 
-.footer-logo-yacht{
-    margin-right: 8px;
-    width: 16px;
-    height: 18px;
+.footer-logo-yacht {
+  margin-right: 8px;
 }
 
 .footer-logo-link {
-    display: flex;
-    align-items: center;
-    color: var(--white-text-color);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 114%;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  color: var(--white-text-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 114%;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -101,7 +101,8 @@
   }
 }
 
-.footer-nav-list {}
+.footer-nav-list {
+}
 
 @media only screen and (min-width: 768px) {
   .footer-nav-list {
@@ -123,12 +124,12 @@
 }
 
 .footer-nav-item {
-    color: var(--white-text-color);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 118%;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
+  color: var(--white-text-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 118%;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -143,21 +144,22 @@
   }
 }
 
-.footer-social-container {}
+.footer-social-container {
+}
 
 .footer-social-text {
-    color: var(--white-text-color);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 118%;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
+  color: var(--white-text-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 118%;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .footer-social-list {
-    display: flex;
-    gap: 14px; 
+  display: flex;
+  gap: 14px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -172,23 +174,25 @@
   }
 }
 
-.footer-social-item {}
+.footer-social-item {
+}
 
-.footer-networks-icon:hover, .footer-networks-icon:focus {
-    fill: rgba(246, 245, 239, 0.50);
-    border-color: rgba(246, 245, 239, 0.50);  
+.footer-networks-icon:hover,
+.footer-networks-icon:focus {
+  fill: rgba(246, 245, 239, 0.5);
+  border-color: rgba(246, 245, 239, 0.5);
 }
 
 .footer-networks-icon {
-    fill: var(--white-text-color);
-    display: flex;
-    width: 32px;
-    height: 32px;
-    padding: 7px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    border: 1px solid rgba(246, 245, 239, 0.50);
+  fill: var(--white-text-color);
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 7px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid rgba(246, 245, 239, 0.5);
 }
 
 @media only screen and (min-width: 768px) {
@@ -199,9 +203,9 @@
 }
 
 .footer-privacy-container {
-    display: flex;
-    gap: 14px;
-    justify-content: center;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -211,11 +215,11 @@
 }
 
 .footer-privacy-text {
-    color: rgba(246, 245, 239, 0.50);
-    text-align: center;
-    font-size: 12px;
-    line-height: 118%;
-    letter-spacing: 0.36px;
+  color: rgba(246, 245, 239, 0.5);
+  text-align: center;
+  font-size: 12px;
+  line-height: 118%;
+  letter-spacing: 0.36px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -225,17 +229,17 @@
 }
 
 .footer-blur-background-big {
-    position: absolute;
-    top: 272px;
-    left: 16px;
-    width: 420px;
-    height: 420px;
-    transform: rotate(-45.408deg);
-    flex-shrink: 0;
-    border-radius: 420px;
-    opacity: 0.6000000238418579;
-    background: var(--primary-accent-color);
-    filter: blur(100px);
+  position: absolute;
+  top: 272px;
+  left: 16px;
+  width: 420px;
+  height: 420px;
+  transform: rotate(-45.408deg);
+  flex-shrink: 0;
+  border-radius: 420px;
+  opacity: 0.6000000238418579;
+  background: var(--primary-accent-color);
+  filter: blur(100px);
 }
 
 @media only screen and (min-width: 768px) {
@@ -256,15 +260,52 @@
 }
 
 .footer-blur-background-small {
-    position: absolute;
-    width: 317px;
-    height: 317px;
-    transform: rotate(-45.044deg);
-    flex-shrink: 0;
-    border-radius: 317px;
-    opacity: 0.30000001192092896;
-    background: #A6A9B2;
-    filter: blur(100px);
-    left: 666px;
-    top: 300px;
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  transform: rotate(-45.044deg);
+  flex-shrink: 0;
+  border-radius: 317px;
+  opacity: 0.30000001192092896;
+  background: #a6a9b2;
+  filter: blur(100px);
+  left: 666px;
+  top: 300px;
+}
+
+#myBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: var(--primary-accent-color);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 8px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#myBtn:hover {
+  background-color: var(--pressed-state-color);
+}
+
+@media only screen and (min-width: 768px) {
+  #myBtn {
+    width: 68px;
+    height: 68px;
+    bottom: 32px;
+    right: 32px;
+  }
+}
+
+.top-btn-icon {
+  rotate: 270deg;
+  fill: var(--white-text-color);
 }
