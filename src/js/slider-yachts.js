@@ -6,7 +6,7 @@ $('.autoplay').slick({
     dotsClass: "my-dots",
     autoplay: true,
     autoplaySpeed: 2000,
-    nextArrow: '<button type="button" class="slick-next"><img src="./img/Dekstop/slider/right.png" alt="next"></button>',
-    prevArrow: '<button type="button" class="slick-prev"><img src="./img/Dekstop/slider/left.png" alt="prev"></button>'
+    nextArrow: '<button type="button" class="slick-next"><img src="../img/Dekstop/slider/right.png" alt="next"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="../img/Dekstop/slider/left.png" alt="prev"></button>'
     
 });
