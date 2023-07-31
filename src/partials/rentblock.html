@@ -78,49 +78,51 @@
 </section>
 
 <!-- Modal window -->
-<div class="modal">
-  <button class="modal-close-btn" data-modal-close>
-    <svg class="modal-close-icon" width="20" height="20">
-      <use href="./img/icons.svg#icon-close-btn"></use>
-    </svg>
-  </button>
-  <div class="modal-wrapper">
-    <div class="modal-img-wrapper">
-      <div class="modal-light-circle"></div>
-      <picture class="rent-img">
-        <source
-          srcset="
-            ./img/mobile/hero/yaht-png@1.png 1x,
-            ./img/mobile/hero/yaht-png@2.png 2x
-          "
-          media="(max-width:767px)"
-          type="image/png"
-        />
-        <source
-          srcset="
-            ./img/mobile/hero/yaht-png@1.png 1x,
-            ./img/mobile/hero/yaht-png@2.png 2x
-          "
-          media="(min-width:768px)"
-          type="image/png"
-        />
-        <img
-          class="rent-modal-img"
-          src="./img/Dekstop/hero/yaht-png@1.png"
-          alt="luxurias catamaran yacht"
-        />
-      </picture>
-    </div>
-    <div class="modal-text-wrapper">
-      <p class="modal-window-text">
-        <strong class="modal-strong-text">Thank you</strong>
-      </p>
-      <p class="modal-window-text">
-        Thank you for choosing Yacht Adventures, your booking details have been
-        received and our team will be in touch shortly to confirm your
-        reservation and provide any additional information or assistance you may
-        need.
-      </p>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-icon" width="20" height="20">
+        <use href="./img/icons.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+    <div class="modal-wrapper">
+      <div class="modal-img-wrapper">
+        <div class="modal-light-circle"></div>
+        <picture class="rent-img">
+          <source
+            srcset="
+              ./img/mobile/hero/yaht-png@1.png 1x,
+              ./img/mobile/hero/yaht-png@2.png 2x
+            "
+            media="(max-width:767px)"
+            type="image/png"
+          />
+          <source
+            srcset="
+              ./img/mobile/hero/yaht-png@1.png 1x,
+              ./img/mobile/hero/yaht-png@2.png 2x
+            "
+            media="(min-width:768px)"
+            type="image/png"
+          />
+          <img
+            class="rent-modal-img"
+            src="./img/Dekstop/hero/yaht-png@1.png"
+            alt="luxurias catamaran yacht"
+          />
+        </picture>
+      </div>
+      <div class="modal-text-wrapper">
+        <p class="modal-window-text">
+          <strong class="modal-strong-text">Thank you</strong>
+        </p>
+        <p class="modal-window-text">
+          Thank you for choosing Yacht Adventures, your booking details have
+          been received and our team will be in touch shortly to confirm your
+          reservation and provide any additional information or assistance you
+          may need.
+        </p>
+      </div>
     </div>
   </div>
 </div>
