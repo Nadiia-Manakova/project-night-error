@@ -33,7 +33,7 @@
 }
 
 .hidden-services-card {
-  transform: scale(0);
+  transform: scale(0.75);
   transition: transform 2000ms ease-in;
 }
 
