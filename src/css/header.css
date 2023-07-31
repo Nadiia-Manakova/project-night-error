@@ -163,12 +163,16 @@
 
   transform: translateY(-100%);
   transition: transform 250ms ease-in-out;
+
+  overflow-y: hidden;
 }
 
 .menu-container.is-open {
   transform: translateY(0);
 }
-
+.header-menu-nav {
+  padding-top: 140px;
+}
 .header-nav-link {
   color: var(--white-text-color);
 
@@ -212,6 +216,7 @@
   bottom: 0;
   left: -154px;
 }
+
 .header-light-right {
   width: 279px;
   height: 279px;
