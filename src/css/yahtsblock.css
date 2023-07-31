@@ -136,16 +136,20 @@
 
     .container .slick-prev {
         position: absolute;
-        top: 513px;
-        left: 115px;
-        z-index: 1;
+        top: 0;
+            left: 0;
+        /* top: 513px;
+        left: 115px; */
+        z-index: 99999;
     }
 
     .container .slick-next {
         position: absolute;
-        top: 513px;
-        right: 105px;
-        z-index: 1;
+        top: 0;
+            left: 0;
+        /* top: 513px;
+        right: 105px; */
+        z-index: 99999;
     }
 
     .container .general-text-slider {
@@ -232,16 +236,20 @@
 
     .container .slick-prev {
         position: absolute;
-        top: 560px;
-        left: 291px;
-        z-index: 1;
+        top: 0;
+            left: 0;
+        /* top: 560px;
+        left: 291px; */
+        z-index: 99999;
     }
 
     .container .slick-next {
         position: absolute;
-        top: 560px;
-        right: 296px;
-        z-index: 1;
+        top: 0;
+            left: 0;
+        /* top: 560px;
+        right: 296px; */
+        z-index: 99999;
     }
 
 .container .slider-images {
@@ -408,9 +416,11 @@ td {
 
 .slick-prev {
     position: absolute;
-    top: 255px;
-    left: -62px;
-    z-index: 1;
+    top: 0;
+    left: 0;
+    /* top: 255px;
+    left: -62px; */
+    z-index: 99999;
     width: 50px;
     height: 38px;
 }
@@ -418,9 +428,11 @@ td {
 
 .slick-next {
     position: absolute;
-    top: 255px;
-    right: -59px;
-    z-index: 1;
+    top: 0;
+    left: 0;
+    /* top: 255px;
+    right: -59px; */
+    z-index: 99999;
     width: 50px;
     height: 38px;
 }
