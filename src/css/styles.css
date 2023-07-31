@@ -64,17 +64,19 @@
   --white-text-color: #f6f5ef;
   --dark-text-color: #11131f;
   --white-bg-color: #f6f5ef;
-  --primary-gradient: linear-gradient(
-    107deg,
-    rgb(190, 199, 194) 0%,
-    #a1b5ba 100%
-  );
+  --primary-gradient: linear-gradient(107deg,
+      rgb(190, 199, 194) 0%,
+      #a1b5ba 100%);
 }
 
 body {
   font-family: 'DM Sans', sans-serif;
   color: var(--white-text-color);
   background-color: var(--background-color-body);
+}
+
+main {
+  overflow-x: hidden;
 }
 
 .text-accent {
