@@ -277,7 +277,7 @@
 @media screen and (min-width: 768px) {
   .div-task-styless {
     width: 273px;
-    /*margin-left: -200px;*/
+    margin-left: auto;
     /*padding-top: 64px;*/
   }
 }
