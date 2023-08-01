@@ -119,4 +119,15 @@
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      document.getElementById('myBtn').style.display = 'flex';
+    } else {
+      document.getElementById('myBtn').style.display = 'none';
+    }
+  }
 </script>
