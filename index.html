@@ -9,8 +9,8 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
   
-  <script type="module" crossorigin src="/project-night-error/assets/index-4fb89ae8.js"></script>
-  <link rel="stylesheet" href="/project-night-error/assets/index-a0a0b3d5.css">
+  <script type="module" crossorigin src="/project-night-error/assets/index-3d148ee6.js"></script>
+  <link rel="stylesheet" href="/project-night-error/assets/index-fad4cbb7.css">
 </head>
 
 <body>
@@ -1205,6 +1205,17 @@
   function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+  }
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      document.getElementById('myBtn').style.display = 'flex';
+    } else {
+      document.getElementById('myBtn').style.display = 'none';
+    }
   }
 </script>
 
