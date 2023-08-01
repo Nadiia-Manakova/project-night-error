@@ -168,7 +168,7 @@
 
 .hero-btn {
     padding: 14px 28px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -202,35 +202,14 @@
 }
 
 .hero-btn-border {
-    background: linear-gradient(107deg,
-            #f6f5ef 0%,
-            #f6f5ef 100%);
-    border: 1px solid transparent;
-    /* border-color: inherit; */
-    position: relative;
-    overflow: hidden;
-}
-
-.hero-btn-gradient {
-    position: relative;
-    z-index: 1;
-}
-
-.hero-btn-border::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--background-color-body);
+    border: 1px solid;
+    border-color: inherit;
 }
 
 
 
 .hero-btn-border:hover,
 .hero-btn-border:focus {
-    background: var(--primary-gradient);
     color: var(--primary-accent-color);
 }
 
@@ -239,7 +218,6 @@
         background-color: var(--pressed-state-color);
     }
     .hero-btn-border:active {
-        background: var(--primary-gradient);
         color: var(--primary-accent-color);
     }
 }
