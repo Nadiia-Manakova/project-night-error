@@ -104,8 +104,8 @@
 .footer-nav-list {
 }
 
-.footer-nav-link:hover,
-.footer-nav-link:focus {
+.footer-nav-link:hover, .footer-nav-link:focus
+ {
   color: var(--primary-accent-color);
 }
 
@@ -279,7 +279,7 @@
 }
 
 #myBtn {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   width: 44px;
@@ -313,4 +313,8 @@
 .top-btn-icon {
   rotate: 270deg;
   fill: var(--white-text-color);
+}
+
+html {
+  scroll-behavior: smooth;
 }
