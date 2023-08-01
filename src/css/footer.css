@@ -1,6 +1,5 @@
 .footer-container {
   position: relative;
-  padding-bottom: 14px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -21,6 +20,7 @@
 .footer {
   position: relative;
   overflow: hidden;
+  padding-bottom: 14px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -104,6 +104,11 @@
 .footer-nav-list {
 }
 
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: var(--primary-accent-color);
+}
+
 @media only screen and (min-width: 768px) {
   .footer-nav-list {
     text-align: center;
@@ -179,8 +184,8 @@
 
 .footer-networks-icon:hover,
 .footer-networks-icon:focus {
-  fill: rgba(246, 245, 239, 0.5);
-  border-color: rgba(246, 245, 239, 0.5);
+  fill: var(--primary-accent-color);
+  border-color: var(--primary-accent-color);
 }
 
 .footer-networks-icon {
