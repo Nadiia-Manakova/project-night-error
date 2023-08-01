@@ -1,0 +1,72 @@
+:root {
+  --background-color-body: #11131f;
+  --background-color-blur: #91afba;
+  --background-color-content: #1f212d;
+  --primary-accent-color: #93abae;
+  --pressed-state-color: #88b3b9;
+  --white-text-color: #f6f5ef;
+  --dark-text-color: #11131f;
+  --white-bg-color: #f6f5ef;
+  --primary-gradient: linear-gradient(
+    107deg,
+    rgb(190, 199, 194) 0%,
+    #a1b5ba 100%
+  );
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--white-text-color);
+  background-color: var(--background-color-body);
+}
+
+main {
+  overflow-x: hidden;
+}
+
+.text-accent {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: var(--primary-gradient);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}

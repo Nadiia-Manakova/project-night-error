@@ -1,38 +1,37 @@
 .div-reviewsblock {
   width: 100%;
-  
- 
 }
-@media screen and (min-width: 375px){
-  .div-reviewsblock{
-    
+@media screen and (min-width: 375px) {
+  .div-reviewsblock {
+    width: 335px;
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .div-reviewsblock {
-    
-    
+    width: 704px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .div-reviewsblock {
-    
+    width: 1280px;
   }
 }
 
 .advanture {
-  width: 335px;
-  padding-bottom: 40px;
+  width: 100%;
 }
 
+@media screen and (min-width: 375px) {
+  .advanture {
+    width: 335px;
+  }
+}
 @media screen and (min-width: 768px) {
   .advanture {
     width: 704px;
     position: relative;
-    
   }
 }
 
@@ -49,14 +48,16 @@
   font-weight: 500;
   line-height: 120%;
   letter-spacing: -1.08px;
-  background: var(--linear-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
+  background: var(
+    --linear-green,
+    linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 @media screen and (min-width: 768px) {
   .styless-yacht {
-
     font-size: 32px;
     letter-spacing: -1.44px;
   }
@@ -71,7 +72,7 @@
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .styless-yacht-task{
+  .styless-yacht-task {
     font-size: 32px;
     letter-spacing: -1.44px;
     width: 497px;
@@ -79,12 +80,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .styless-yacht-task{
-
-
+  .styless-yacht-task {
   }
 }
-
 
 .task-styless-our {
   color: var(--white-text-color);
@@ -98,15 +96,12 @@
 }
 @media screen and (min-width: 768px) {
   .task-styless-our {
-
     font-size: 16px;
     letter-spacing: -0.32px;
-    width: 273px;
-    height: 110px;
-
+    /*width: 273px;*/
+    /*height: 110px;*/
   }
 }
-
 
 /* .div-block {
 
@@ -132,37 +127,36 @@
     gap: 32px;
     justify-content: center;
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
   }
 }
 
 .div-advanture {
-  flex-direction: column;
-  padding: 0 20px;
-  margin-left: auto;
-  margin-right: auto;
+  /*flex-direction: column;*/
+  /*padding: 0 20px;*/
+  padding-bottom: 40px;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
 
 @media screen and (min-width: 768px) {
   .div-advanture {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .div-advanture {}
+  .div-advanture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
-
-
 
 .review-people {
   margin-bottom: 18px;
   border-radius: 24px;
-  background: #1F212D;
-
+  background: #1f212d;
   display: flex;
   width: 335px;
   height: 208px;
@@ -170,7 +164,6 @@
   flex-direction: column;
   align-items: center;
   gap: 8px;
-
 }
 
 @media screen and (min-width: 768px) {
@@ -181,9 +174,7 @@
     gap: 24px;
     margin: 0 8px;
     height: 266px;
-
   }
-
 }
 
 @media screen and (min-width: 1280px) {
@@ -193,13 +184,11 @@
     height: 282px;
     gap: 0;
     margin: 0;
-
   }
 }
 
 .people-name {
-
-  color: var(--white, #F6F5EF);
+  color: var(--white, #f6f5ef);
   text-align: center;
   font-family: DM Sans;
   font-size: 16px;
@@ -212,7 +201,7 @@
 }
 
 .people-page {
-  color: rgba(246, 245, 239, 0.50);
+  color: rgba(246, 245, 239, 0.5);
   text-align: center;
   font-family: DM Sans;
   font-size: 12px;
@@ -224,10 +213,8 @@
 
 @media screen and (min-width: 768px) {
   .people-page {
-
     font-size: 16px;
     letter-spacing: -0.32px;
-
   }
 }
 
@@ -238,22 +225,17 @@
 }
 
 .reviewsblock {
-
   padding-bottom: 80px;
 }
 
 @media screen and (min-width: 768px) {
   .reviewsblock {
-
     padding-bottom: 100px;
-
-
   }
 }
 
 @media screen and (min-width: 1280px) {
   .reviewsblock {
-
     padding-bottom: 164px;
   }
 }
@@ -265,12 +247,10 @@
 
 @media screen and (min-width: 768px) {
   .div-styless-yacht {
-    padding-bottom: 206px;
-    margin-left: auto;
+    padding-bottom: 0;
+    /*margin-left: auto;*/
     margin-bottom: 32px;
-    padding-top: 40px;
-   
-
+    /*padding-top: 40px;*/
   }
 }
 
@@ -283,16 +263,22 @@
 }
 
 .div-task-styless {
-  width: 335px;
-  height: 80px;
-  margin-bottom: 40px;
+  width: 100%;
+  /*height: 80px;*/
+  /*margin-bottom: 40px;*/
+}
+
+@media screen and (min-width: 375px) {
+  .div-task-styless {
+    width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .div-task-styless {
     width: 273px;
-    margin-left: -200px;
-    padding-top: 64px;
+    /*margin-left: -200px;*/
+    /*padding-top: 64px;*/
   }
 }
 
@@ -300,33 +286,22 @@
   .div-task-styless {
     padding-top: 0;
     height: 110px;
-    
   }
 }
 
 /* ------------------------------------------------------------------ */
-.visually-hidden{
-  
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  
- 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-
-
-
-
-
-
-
 
 .reviewsblock .slick-prev:before {
   content: '←';
@@ -337,13 +312,11 @@
   font-family: 'slick';
   font-size: 0px;
   line-height: 1;
-  opacity: .75;
+  opacity: 0.75;
   color: rgb(27, 17, 108);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-
 
 .reviewsblock .my-dots {
   position: absolute;
@@ -400,27 +373,24 @@
   height: 13px;
   content: url('../img/dots.svg');
   text-align: center;
-  opacity: .25;
+  opacity: 0.25;
   color: black;
-  
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 .reviewsblock .my-dots li.slick-active button:before {
-  opacity: .75;
+  opacity: 0.75;
   /* color: rgb(135, 19, 19); */
-  color: #88B3B9;
+  color: #88b3b9;
 }
-
 
 .reviewsblock .slider {
   width: 335px;
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .reviewsblock .slick-prev {
@@ -432,7 +402,6 @@
   height: 38px;
 }
 
-
 .reviewsblock .slick-next {
   position: absolute;
   top: 50px;
@@ -442,28 +411,25 @@
   height: 38px;
 }
 
-
 @media screen and (min-width: 768px) {
   .reviewsblock .slider {
     width: 704px;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
-
   }
 
-    .reviewsblock .my-dots {
-      position: absolute;
-      bottom: -104px;
-      display: block;
-      width: 100%;
-      padding: 0;
-      list-style: none;
-      text-align: center;
-    }
+  .reviewsblock .my-dots {
+    position: absolute;
+    bottom: -104px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
 
   .reviewsblock .slick-prev {
-
     position: absolute;
     top: -450px;
     left: 150px;
@@ -472,9 +438,7 @@
     height: 38px;
   }
 
-
   .reviewsblock .slick-next {
-
     position: absolute;
     top: -450px;
     right: 450px;
@@ -482,9 +446,7 @@
     width: 50px;
     height: 38px;
   }
-
 }
-
 
 @media screen and (min-width: 1280px) {
   .reviewsblock .slider {
@@ -494,13 +456,11 @@
         padding: 0;
         margin-left: auto;
         margin-right: auto; */
-
   }
 
   .reviewsblock .doble-div {
     display: flex;
   }
-
 }
 
 .doble-div {
