@@ -1,32 +1,38 @@
 .div-reviewsblock {
-  width: 375px;
-  height: 282px;
-  margin: 0 auto;
+  width: 100%;
+  
+ 
 }
+@media screen and (min-width: 375px){
+  .div-reviewsblock{
+    
+  }
+}
+
 
 @media screen and (min-width: 768px) {
   .div-reviewsblock {
-    width: 768px;
-    margin: 0 auto;
+    
+    
   }
 }
 
 @media screen and (min-width: 1280px) {
   .div-reviewsblock {
-    width: 1280px;
-    display: flex;
-    margin: 0 auto;
+    
   }
 }
 
 .advanture {
   width: 335px;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .advanture {
     width: 704px;
-
+    position: relative;
+    
   }
 }
 
@@ -48,30 +54,61 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media screen and (min-width: 768px) {
+  .styless-yacht {
+
+    font-size: 32px;
+    letter-spacing: -1.44px;
+  }
+}
 
 .styless-yacht-task {
-  font-family: DM Sans;
   font-size: 24px;
   line-height: 120%;
   letter-spacing: -1.08px;
   font-weight: 500;
   margin-right: auto;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .styless-yacht-task{
+    font-size: 32px;
+    letter-spacing: -1.44px;
+    width: 497px;
+  }
 }
 
+@media screen and (min-width: 1280px) {
+  .styless-yacht-task{
+
+
+  }
+}
+
+
 .task-styless-our {
-  color: var(--white-text-color #F6F5EF);
+  color: var(--white-text-color);
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
   width: 100%;
-
   letter-spacing: -0.28px;
+}
+@media screen and (min-width: 768px) {
+  .task-styless-our {
+
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    width: 273px;
+    height: 110px;
+
+  }
 }
 
 
-.div-block {
+/* .div-block {
 
   flex-direction: column;
   height: 208px;
@@ -88,7 +125,7 @@
   .div-block {
     gap: 16px;
   }
-}
+} */
 
 @media screen and (min-width: 1280px) {
   .div-block {
@@ -110,6 +147,8 @@
   .div-advanture {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -136,13 +175,12 @@
 
 @media screen and (min-width: 768px) {
   .review-people {
-    display: flex;
     width: 344px;
-    height: 266px;
     flex-direction: column;
     align-items: center;
     gap: 24px;
     margin: 0 8px;
+    height: 266px;
 
   }
 
@@ -153,6 +191,8 @@
     display: flex;
     width: 484px;
     height: 282px;
+    gap: 0;
+    margin: 0;
 
   }
 }
@@ -166,6 +206,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 110%;
+  margin-bottom: 8px;
 
   letter-spacing: -0.72px;
 }
@@ -179,12 +220,21 @@
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.24px;
+}
 
+@media screen and (min-width: 768px) {
+  .people-page {
+
+    font-size: 16px;
+    letter-spacing: -0.32px;
+
+  }
 }
 
 .img-people {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 18px;
 }
 
 .reviewsblock {
@@ -209,47 +259,67 @@
 }
 
 .div-styless-yacht {
-  width: 335px;
-  height: 116px;
+  width: 100%;
   margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
   .div-styless-yacht {
-    width: 497px;
-    height: 114px;
     padding-bottom: 206px;
     margin-left: auto;
+    margin-bottom: 32px;
+    padding-top: 40px;
+   
 
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .div-styless-yacht {}
+  .div-styless-yacht {
+    padding-bottom: 64px;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
 }
 
 .div-task-styless {
   width: 335px;
   height: 80px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .div-task-styless {
     width: 273px;
-    height: 110px;
+    margin-left: -200px;
     padding-top: 64px;
-
   }
 }
 
 @media screen and (min-width: 1280px) {
   .div-task-styless {
     padding-top: 0;
+    height: 110px;
+    
   }
 }
 
-/* ----------------------Taras add----------------------------------------------- */
-
+/* ------------------------------------------------------------------ */
+.visually-hidden{
+  
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  
+ 
+}
 
 
 
