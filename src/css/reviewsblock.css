@@ -320,7 +320,7 @@
 
 .reviewsblock .my-dots {
   position: absolute;
-  bottom: -49px;
+  bottom: -10px;
   display: block;
   width: 100%;
   padding: 0;
@@ -391,6 +391,8 @@
   padding: 0;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 9px;
 }
 
 .reviewsblock .slick-prev {
@@ -417,11 +419,14 @@
     padding: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 45px;
+    margin-top: 64px;
+    
   }
 
   .reviewsblock .my-dots {
     position: absolute;
-    bottom: -104px;
+    bottom: -40px;
     display: block;
     width: 100%;
     padding: 0;
