@@ -110,7 +110,7 @@
   width: 131px;
   padding: 14px 28px;
   border-radius: 60px;
-  border-color: 1px solid var(--white-text-color);
+  border: 1px solid var(--white-text-color);
   color: var(--white-text-color);
   background-color: transparent;
   font-size: 14px;
