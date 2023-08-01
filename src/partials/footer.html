@@ -41,6 +41,7 @@
             Yacht adventures
           </a>
         </div>
+
         <ul class="footer-nav-list">
           <li class="footer-nav-item">
             <a href="#about" class="footer-nav-link">About</a>
@@ -110,6 +111,8 @@
   </svg>
 </button>
 
+<!-- Back-To-Top-btn -->
+
 <script>
   window.onscroll = function () {
     scrollFunction();
@@ -122,12 +125,34 @@
 
   function scrollFunction() {
     if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
+      document.body.scrollTop > 40 ||
+      document.documentElement.scrollTop > 40
     ) {
       document.getElementById('myBtn').style.display = 'flex';
     } else {
       document.getElementById('myBtn').style.display = 'none';
     }
   }
+</script>
+
+<!-- Anchors-scroll -->
+
+<script>
+  let btnDown = document.getElementById('footer-nav-link');
+  btnDown.onclick = function scrollDown() {
+    window.scrollTo({
+      // top: 9999, //device height in px
+      behavior: 'smooth', // slow scroll
+    });
+  };
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth',
+      });
+    });
+  });
 </script>
