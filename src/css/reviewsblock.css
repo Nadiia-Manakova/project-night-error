@@ -149,7 +149,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  .reviewsblock > .container {
+    padding-bottom: 64px;
   }
 }
 
@@ -160,7 +164,7 @@
   display: flex;
   width: 335px;
   height: 208px;
-  padding: 32px;
+  padding: 24px 14px;
   flex-direction: column;
   align-items: center;
   gap: 8px;
@@ -181,7 +185,8 @@
   .review-people {
     display: flex;
     width: 484px;
-    height: 282px;
+    /*height: 282px;*/
+    padding: 32px;
     gap: 0;
     margin: 0;
   }
@@ -190,7 +195,6 @@
 .people-name {
   color: var(--white, #f6f5ef);
   text-align: center;
-  font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -203,7 +207,6 @@
 .people-page {
   color: rgba(246, 245, 239, 0.5);
   text-align: center;
-  font-family: DM Sans;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -256,7 +259,7 @@
 
 @media screen and (min-width: 1280px) {
   .div-styless-yacht {
-    padding-bottom: 64px;
+    /*padding-bottom: 64px;*/
     margin-bottom: 0;
     padding-top: 0;
   }
@@ -285,7 +288,7 @@
 @media screen and (min-width: 1280px) {
   .div-task-styless {
     padding-top: 0;
-    height: 110px;
+    /*height: 110px;*/
   }
 }
 
@@ -421,7 +424,6 @@
     margin-right: auto;
     margin-bottom: 45px;
     margin-top: 64px;
-    
   }
 
   .reviewsblock .my-dots {
