@@ -210,7 +210,6 @@
 
 .hero-btn-border:hover,
 .hero-btn-border:focus {
-    /* color: var(--primary-accent-color); */
     color: var(--primary-accent-color);
         box-shadow: 0 0 5px var(--primary-accent-color),
             0 0 10px var(--primary-accent-color),
