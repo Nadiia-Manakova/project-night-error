@@ -1,5 +1,5 @@
 .about-block {
-  margin-bottom: 98px;
+  padding-bottom: 98px;
   overflow-x: clip;
 }
 
@@ -101,36 +101,42 @@
   margin-right: auto;
 }
 .about-title {
-  z-index: 999;
   font-size: 36px;
   font-weight: 500;
   line-height: 110%; /* 110px */
   letter-spacing: -1.62px;
 }
 .about-rent-button {
-  z-index: 999;
   width: 131px;
+  padding: 14px 28px;
+  border-radius: 60px;
+  border: 1px solid var(--white-text-color);
+  color: var(--white-text-color);
+  background-color: transparent;
   font-size: 14px;
   font-weight: 700;
   line-height: 110%; /* 19.8px */
   letter-spacing: -0.63px;
-  padding: 14px;
-  border-radius: 60px;
-  border: 1px solid var(--white-text-color);
-  background-color: transparent;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
 }
 
 .about-rent-button:hover,
 .about-rent-button:focus {
-  border-color: var(--background-color-blur);
-  color: var(--background-color-blur);
+  /* color: var(--primary-accent-color);
+    border-color: var(--primary-accent-color);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  color: var(--primary-accent-color);
+  box-shadow: 0 0 5px var(--primary-accent-color),
+    0 0 25px var(--primary-accent-color), 0 0 50px var(--primary-accent-color),
+    0 0 200px var(--primary-accent-color);
+  border-color: var(--primary-accent-color);
 }
 
 @media screen and (min-width: 768px) {
   .about-block {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .about-pragraph {
     width: 514px;
@@ -199,7 +205,7 @@
 }
 @media screen and (min-width: 1280px) {
   .about-block {
-    margin-bottom: 180px;
+    padding-bottom: 180px;
   }
 
   .about-topics-wrap {
@@ -249,23 +255,13 @@
   }
 }
 
-@media only screen and (min-width:1280px) {
+@media only screen and (min-width: 1280px) {
   .hidden-title {
     transform: translateX(100%);
-    transition: all 0.6s ease-in-out; 
+    transition: all 0.6s ease-in-out;
   }
 
   .show-title {
     transform: translateX(0);
-  }
-
-  .hidden-button {
-    transform: scale(0.5);
-    animation-delay: 0.2s;
-    transition: all 0.6s ease-in-out;
-  }
-
-  .show-button {
-    transform: scale(1);
   }
 }
