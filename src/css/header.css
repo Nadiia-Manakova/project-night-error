@@ -40,7 +40,7 @@
     line-height: 1.8;
   }
 }
-.header-menu-open {
+.header-menu-open-btn {
   padding: 0;
 
   display: flex;
@@ -161,8 +161,8 @@
 
   background: var(--background-color-body);
 
-  transform: translateY(-100%);
-  transition: transform 250ms ease-in-out;
+  transform: translateY(100%);
+  transition: transform 450ms ease-in-out;
 
   overflow-y: hidden;
 }

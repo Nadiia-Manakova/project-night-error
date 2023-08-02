@@ -2,6 +2,7 @@
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
+  const menuLinks = document.querySelectorAll('.mobile-modal-link');
 
   const toggleMenu = () => {
     const isMenuOpen =
@@ -15,6 +16,10 @@
     bodyScrollLock[scrollLockMethod](document.body);
   };
 
+  menuLinks.forEach(menuLink => {
+    menuLink.addEventListener('click', toggleMenu);
+  });
+
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 
@@ -26,3 +31,4 @@
     bodyScrollLock.enableBodyScroll(document.body);
   });
 })();
+

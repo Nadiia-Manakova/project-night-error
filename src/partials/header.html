@@ -38,7 +38,7 @@
       </a>
       <!-- menu open -->
       <button
-        class="js-open-menu header-menu-open"
+        class="js-open-menu header-menu-open-btn"
         aria-expanded="false"
         aria-controls="mobile-menu"
       >
@@ -50,20 +50,16 @@
       <nav class="header-nav">
         <ul class="header-list">
           <li>
-            <a href="#about" target="_blank" class="header-nav-link">About</a>
+            <a href="#about" class="header-nav-link">About</a>
           </li>
           <li>
-            <a href="#yachts" target="_blank" class="header-nav-link">Yachts</a>
+            <a href="#yachts" class="header-nav-link">Yachts</a>
           </li>
           <li>
-            <a href="#reviews" target="_blank" class="header-nav-link"
-              >Reviews</a
-            >
+            <a href="#reviews" class="header-nav-link">Reviews</a>
           </li>
         </ul>
       </nav>
-      <!-- underline -->
-
       <!-- mobile menu -->
       <div class="menu-container js-menu-container" id="mobile-menu">
         <a class="link header-logo header-logo-menu" href="./index.html">
@@ -87,18 +83,14 @@
         </button>
         <nav class="header-menu-nav">
           <ul class="header-navigation-list">
-            <li class="header-navigation-item">
-              <a href="#about" target="_blank" class="header-nav-link">About</a>
+            <li class="header-navigation-item mobile-modal-link">
+              <a href="#about" class="header-nav-link">About</a>
             </li>
-            <li class="header-navigation-item">
-              <a href="#yachts" target="_blank" class="header-nav-link"
-                >Yachts</a
-              >
+            <li class="header-navigation-item mobile-modal-link">
+              <a href="#yachts" class="header-nav-link">Yachts</a>
             </li>
-            <li class="header-navigation-item">
-              <a href="#reviews" target="_blank" class="header-nav-link"
-                >Reviews</a
-              >
+            <li class="header-navigation-item mobile-modal-link">
+              <a href="#reviews" class="header-nav-link">Reviews</a>
             </li>
           </ul>
         </nav>
@@ -107,4 +99,5 @@
       </div>
     </div>
   </div>
+  <script src="./js/mobile-menu-scroll.js"></script>
 </header>
