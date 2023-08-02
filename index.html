@@ -9,8 +9,8 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
   
-  <script type="module" crossorigin src="/project-night-error/assets/index-69d93771.js"></script>
-  <link rel="stylesheet" href="/project-night-error/assets/index-3c070d83.css">
+  <script type="module" crossorigin src="/project-night-error/assets/index-929a0612.js"></script>
+  <link rel="stylesheet" href="/project-night-error/assets/index-4b303172.css">
 </head>
 
 <body>
@@ -873,7 +873,7 @@
                 <label for="user-tel" class="rent-form-lbl">
                     Phone number
                     <input type="tel" class="rent-form-input" id="user-tel" name="user-tel"
-                        pattern="\+?[0-9]{1,3}-?[0-9]{1,4}-?[0-9]{4,10}" required />
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required />
                 </label>
                 <label for="" class="rent-form-lbl">
                     Comment
@@ -902,7 +902,7 @@
         <div class="modal-wrapper">
             <div class="modal-img-wrapper">
                 <div class="modal-light-circle"></div>
-                <picture class="rent-img">
+                <picture class="modal-img">
                     <source srcset="/project-night-error/assets/yaht-png@1-8b6e2cc3.png 1x, /project-night-error/assets/yaht-png@2-62e989ac.png 2x" media="(max-width:767px)" type="image/png" />
                     <source srcset="/project-night-error/assets/yaht-png@1-8b6e2cc3.png 1x, /project-night-error/assets/yaht-png@2-62e989ac.png 2x" media="(min-width:768px)" type="image/png" />
                     <img class="rent-modal-img" src="/project-night-error/assets/yaht-png@1-e663ee69.png"
@@ -911,7 +911,7 @@
             </div>
             <div class="modal-text-wrapper">
                 <p class="modal-window-text">
-                    <strong class="modal-strong-text">Thank you</strong>
+                    <strong class="modal-strong-text"><span id="user-name-modal">Thank you</span></strong>
                 </p>
                 <p class="modal-window-text">
                     Thank you for choosing Yacht Adventures, your booking details have
