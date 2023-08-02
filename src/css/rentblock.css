@@ -199,6 +199,7 @@
     color: var(--primary-accent-color);
     height: 58px;
     outline: none;
+    margin-bottom: 0;
 }
 
 /* Style valid and invalid inputs */
@@ -254,7 +255,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-пше @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .rent-form-btn {
         width: 132px;
         height: 48px;
