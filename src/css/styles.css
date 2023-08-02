@@ -79,6 +79,7 @@ body {
 
 main {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .text-accent {
